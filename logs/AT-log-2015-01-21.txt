@@ -1,0 +1,300 @@
+STARTED:[2015-01-21|17:43:54]
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+ATE1V1
+OK
+AT+CNUM
+OK
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+ATE1V1
+OK
+
+^MODE:5,4
+AT+CNUM
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK

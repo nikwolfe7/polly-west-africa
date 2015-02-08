@@ -1,0 +1,191 @@
+STARTED:[2015-01-29|03:00:56]
+Sending update to remote monitoring system...
+HTTP Request Generated: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=Hey%20Peter%20Frampton!%20Do%20you%20like%20toast%20TOO?
+HTTP Response:
+
+<br />
+<b>Notice</b>:  Undefined index: HELLO in <b>E:\xampp\htdocs\wa\RemoteMonitor\dongleMontiorUpdate.php</b> on line <b>2</b><br />
+Here's what you said: <br/>Here is our answer.<br/>
+Yes, I also like toast. It is warm and crispy.
+Sending update to remote monitoring system...
+HTTP Request Generated: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=Hey%20Peter%20Frampton!%20Do%20you%20like%20toast%20TOO?
+HTTP Response:
+
+Here's what you said: Hey Peter Frampton! Do you like toast TOO?<br/>Here is our answer.<br/>
+Yes, I also like toast. It is warm and crispy.
+Sending update to remote monitoring system...
+HTTP Request Generated: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=+1927593134,34,223.56,CellComGN,235kk
+HTTP Response:
+
+Here's what you said:  1927593134,34,223.56,CellComGN,235kk<br/>Here is our answer.<br/>
+Yes, I also like toast. It is warm and crispy.
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM13:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM15:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM14:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          3000
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM15...
+Couldn't connect to COM15 or port already in use!
+Examining port COM14...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+
+OK
+PORT COM14 is valid!
+PHONE NUMBER: 66589132
+Examining port COM18...
+[DATE|TIME : 2015-01-29|08:50:26]
+Couldn't connect to COM18 or port already in use!
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+[DATE|TIME : 2015-01-29|08:50:27]
+PHONE NUMBER: NO_NUMBER
+Examining port COM13...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+
+OK
+PORT COM13 is valid!
+PHONE NUMBER: 66589132
+We in business... There's COM ports here!
+[COM17] [2015-01-29|08:50:28] 
+Process started... Listening on COM17...
+[COM17] [2015-01-29|08:50:28] Setting up dongle for voice calls...
+[COM13] [2015-01-29|08:50:28] 
+Process started... Listening on COM13...
+[COM13] [2015-01-29|08:50:28] Setting up dongle for voice calls...
+[COM16] [2015-01-29|08:50:28] 
+Process started... Listening on COM16...
+[COM14] [2015-01-29|08:50:28] 
+Process started... Listening on COM14...
+[COM14] [2015-01-29|08:50:28] Setting up dongle for voice calls...
+[COM16] [2015-01-29|08:50:28] Setting up dongle for voice calls...
+[COM17] [2015-01-29|08:50:29] Initializing COM17 for voice calls...
+[COM13] [2015-01-29|08:50:29] Initializing COM13 for voice calls...
+[COM14] [2015-01-29|08:50:29] Initializing COM14 for voice calls...
+[COM16] [2015-01-29|08:50:29] Initializing COM16 for voice calls...
+[COM17] [2015-01-29|08:50:30] Waiting for a call from Godot... Nothing to be done...
+[COM13] [2015-01-29|08:50:30] Waiting for a call from Godot... Nothing to be done...
+[COM14] [2015-01-29|08:50:30] Waiting for a call from Godot... Nothing to be done...
+[COM16] [2015-01-29|08:50:30] Waiting for a call from Godot... Nothing to be done...

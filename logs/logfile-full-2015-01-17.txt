@@ -1,0 +1,280 @@
+STARTED:[2015-01-17|20:54:26]
+Searching for COM ports...
+Status for device COM5:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM3:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        150
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM5...
++CNUM: Response: AT+CNUM
++CNUM: "","14129447784",129
+
++CNU
+[DATE|TIME : 2015-01-17|20:54:27]
+PHONE NUMBER: ('14129447784', True)
+PORT COM5 is valid!
+Examining port COM3...
+Couldn't connect to COM3!
+We in business... There's COM ports here!
+[COM5] [2015-01-17|20:54:28] 
+Process started... Listening on COM5...
+[COM5] [2015-01-17|20:54:28] Setting up dongle for voice calls...
+[COM5] [2015-01-17|20:54:32] Waiting for a call from Godot... Nothing to be done...
+Searching for COM ports...
+Status for device COM5:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM3:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        150
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM5...
++CNUM: Response: AT+CNUM
++CNUM: "","14129447784",129
+
+OK
+[DATE|TIME : 2015-01-17|20:56:11]
+PHONE NUMBER: ('14129447784', True)
+PORT COM5 is valid!
+Examining port COM3...
+Couldn't connect to COM3!
+We in business... There's COM ports here!
+[COM5] [2015-01-17|20:56:11] 
+Process started... Listening on COM5...
+[COM5] [2015-01-17|20:56:11] Setting up dongle for voice calls...
+[COM5] [2015-01-17|20:56:16] Waiting for a call from Godot... Nothing to be done...
+Searching for COM ports...
+Status for device COM5:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM3:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        150
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM5...
+AT^ICCID? Response: AT+CNUM
++CNUM: "","14129447784",129
+
++CNU
+[DATE|TIME : 2015-01-17|21:17:21]
+PHONE NUMBER: ('', False)
+Examining port COM3...
+Couldn't connect to COM3!
+No detected COM ports. Try inserting/reinserting the dongle.
+Searching for COM ports...
+Status for device COM5:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM3:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        150
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM3...
+Couldn't connect to COM3!
+[DATE|TIME : 2015-01-17|21:19:30]
+Examining port COM5...
+AT^ICCID? Response: AT^ICCID?
+^ICCID: 89014104276552874071
+
+OK
+PHONE NUMBER: (False,)
+Searching for COM ports...
+Status for device COM5:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM3:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        150
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM3...
+Searching for COM ports...
+Status for device COM5:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM3:
+-----------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        150
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM5...
