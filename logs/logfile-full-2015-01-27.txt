@@ -1,0 +1,18 @@
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM17] [2015-01-28|18:07:05] Hanging up call from SKYPE|BLANK...
+[COM17] [2015-01-28|18:07:05] Trying: ATH
+[COM17] [2015-01-28|18:07:06] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[DATE|TIME : 2015-01-28|18:07:07]
+[COM17] [2015-01-28|18:07:07] Will not register this call due to blank number...

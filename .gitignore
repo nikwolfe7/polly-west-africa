@@ -1,0 +1,12 @@
+/AT.pyc
+/AT_service.pyc
+/SMS.pyc
+/common.pyc
+/debug.pyc
+/defines.pyc
+/find_dongle.pyc
+/get_call.pyc
+/polly_reg.pyc
+/process_number.pyc
+/remote_monitor.pyc
+/send_delayed_requests.pyc

@@ -1,0 +1,4975 @@
+STARTED:[2015-01-20|15:52:08]
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 10
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 10
+
+^RSSI: 11
+
+^RSSI: 10
+
+^RSSI: 11
+
+^RSSI: 10
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 10
+
+^RSSI: 11
+
+^RSSI: 10
+
+^RSSI: 12
+
+^RSSI: 11
+
+^RSSI: 11
+
+^RSSI: 10
+
+^RSSI: 11
+
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+
+^RSSI: 10
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0019543679247"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 76
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0019543679247"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 77
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0019543679247"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 78
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0019543679247"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 79
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+^RSSI
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
++CGREG: 3
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0019543679247"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 80
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "+001302",17,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="001302"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 81
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "+001302",17,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="001302"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 82
+0
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0019543679247"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 83
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "+00123456",17,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="00123456"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 84
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0019543679247"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 85
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0019543679247"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 86
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "+00123456",17,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="00123456"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 87
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0014124143701",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0014124143701"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CRING: VOICE
+
++CLIP: "0014124143701",1,"",,"",0
++CMGS: 88
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0014124143701",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0014124143701"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CRING: VOICE
+
++CLIP: "0014124143701",1,"",,"",0
++CMGS: 89
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0014124143701",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0014124143701"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CRING: VOICE
+
++CLIP: "0014124143701",1,"",,"",0
++CMGS: 90
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0014124143701",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0014124143701"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 91
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0014124143701",1,"",,"",0
+AT
+OK
++CRING: VOICE
+
++CLIP: "0014124143701",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0014124143701"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 92
+0
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "0014124143701",1,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="0014124143701"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 93
+00
++CRING: VOICE
+
++CLIP: "+00123456",17,"",,"",0
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "+00123456",17,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="00123456"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 94
+0
+0
+0
+0
+0
+0
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+^CEND:1,0,1,17
+0
+0
+0
+0
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+^CEND:1,0,1,17
+0
+0
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+^CEND:1,0,1,17
+0
+0
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+^CEND:1,0,1,17
+0
+0
+0
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+^CEND:1,0,1,17
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "+00123456",17,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+ATE0V0
+ATE0V00
+AT+CMGF=1
+0
+AT+CMGS="00123456"
+>
+Thanks! We received your flash! Polly will call you back shortly.
+>
++CMGS: 95
+00
+0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
