@@ -120,7 +120,7 @@ if __name__ == "__main__":
 	Q = []
 	
 	# Process delayed requests
-	dreqs = Process(target=send_delayed_requests, args=None)
+	dreqs = Process(target=send_delayed_requests)
 	Q.append(dreqs)
 	dreqs.start()
 	
