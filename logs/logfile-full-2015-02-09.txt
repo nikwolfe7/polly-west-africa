@@ -1,0 +1,4175 @@
+STARTED:[2015-02-09|00:00:00]
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        100
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM17...
+[DATE|TIME : 2015-02-09|00:00:02]
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+[DATE|TIME : 2015-02-09|00:00:03]
+PHONE NUMBER: NO_NUMBER
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+We in business... There's COM ports here!
+[COM22] [2015-02-09|00:00:04] 
+Process started... Listening on COM22...
+[COM22] [2015-02-09|00:00:04] Setting up dongle for voice calls...
+[COM16] [2015-02-09|00:00:04] 
+Process started... Listening on COM16...
+[COM16] [2015-02-09|00:00:04] Setting up dongle for voice calls...
+[COM20] [2015-02-09|00:00:04] 
+Process started... Listening on COM20...
+[COM20] [2015-02-09|00:00:05] Setting up dongle for voice calls...
+[COM17] [2015-02-09|00:00:05] 
+Process started... Listening on COM17...
+[COM17] [2015-02-09|00:00:05] Setting up dongle for voice calls...
+[COM22] [2015-02-09|00:00:05] Initializing COM22 for voice calls...
+[COM20] [2015-02-09|00:00:05] Initializing COM20 for voice calls...
+[COM17] [2015-02-09|00:00:05] Initializing COM17 for voice calls...
+[COM16] [2015-02-09|00:00:05] Initializing COM16 for voice calls...
+[COM22] [2015-02-09|00:00:07] Waiting for a call from Godot... Nothing to be done...
+[COM20] [2015-02-09|00:00:07] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+[COM17] [2015-02-09|00:00:07] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+[COM16] [2015-02-09|00:00:07] Waiting for a call from Godot... Nothing to be done...
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+[COM22] [2015-02-09|00:05:08] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+[COM17] [2015-02-09|00:05:08] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-09|00:05:08]
+RSSI: 15
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+[DATE|TIME : 2015-02-09|00:05:09]
+RSSI: 13
+[COM20] [2015-02-09|00:05:09] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+[DATE|TIME : 2015-02-09|00:05:09]
+RSSI: 15
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM16] [2015-02-09|00:05:09] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+[DATE|TIME : 2015-02-09|00:05:10]
+RSSI: 13
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|00:10:10] Sending keep-alive message to server...
+[COM17] [2015-02-09|00:10:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM20] [2015-02-09|00:10:12] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-09|00:10:12]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-09|00:10:12]
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-09|00:10:12] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-09|00:10:13]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-09|00:10:13]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|00:15:13] Sending keep-alive message to server...
+[COM17] [2015-02-09|00:15:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
+RSSI: 10
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
+RSSI: 10
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM20] [2015-02-09|00:15:14] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
+DEVICE STATE: READY
+RSSI: 10
+[COM16] [2015-02-09|00:15:15] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+RSSI: 10
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|00:20:16] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-09|00:20:16]
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
+RSSI: 10
+[COM17] [2015-02-09|00:20:16] Sending keep-alive message to server...
+[COM20] [2015-02-09|00:20:16] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-09|00:20:16]
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+RSSI: 10
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-09|00:20:17]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
+DEVICE STATE: READY
+RSSI: 10
+[COM16] [2015-02-09|00:20:17] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-09|00:20:17]
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
+RSSI: 10
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|00:25:18] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
+[COM17] [2015-02-09|00:25:19] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|00:25:19]
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-09|00:25:19] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|00:25:20]
+CARRIER: Cellcom GN
+[COM16] [2015-02-09|00:25:20] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|00:25:20]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|00:25:21]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        100
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+[DATE|TIME : 2015-02-09|00:30:02]
+PHONE NUMBER: 66589132
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+Examining port COM21...
+[DATE|TIME : 2015-02-09|00:30:03]
+Couldn't connect to COM21 or port already in use!
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+PHONE NUMBER: NO_NUMBER
+We in business... There's COM ports here!
+[COM22] [2015-02-09|00:30:05] 
+Process started... Listening on COM22...
+[COM22] [2015-02-09|00:30:05] Setting up dongle for voice calls...
+[COM20] [2015-02-09|00:30:05] 
+Process started... Listening on COM20...
+[COM20] [2015-02-09|00:30:05] Setting up dongle for voice calls...
+[COM17] [2015-02-09|00:30:05] 
+Process started... Listening on COM17...
+[COM17] [2015-02-09|00:30:05] Setting up dongle for voice calls...
+[COM22] [2015-02-09|00:30:05] Initializing COM22 for voice calls...
+[COM20] [2015-02-09|00:30:05] Initializing COM20 for voice calls...
+[COM17] [2015-02-09|00:30:05] Initializing COM17 for voice calls...
+[COM16] [2015-02-09|00:30:05] 
+Process started... Listening on COM16...
+[COM16] [2015-02-09|00:30:05] Setting up dongle for voice calls...
+[COM16] [2015-02-09|00:30:06] Initializing COM16 for voice calls...
+[COM17] [2015-02-09|00:30:07] Waiting for a call from Godot... Nothing to be done...
+[COM20] [2015-02-09|00:30:07] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-09|00:30:07] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501005604963FF
+ICCID: 892246501005604963FF
+ICCID: 892246501050918961FF
+APPLICATION: polly_browse
+APPLICATION: polly_browse
+APPLICATION: polly_game
+[COM16] [2015-02-09|00:30:08] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+[COM22] [2015-02-09|00:35:09] Sending keep-alive message to server...
+[COM20] [2015-02-09|00:35:09] Sending keep-alive message to server...
+[COM17] [2015-02-09|00:35:09] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+[DATE|TIME : 2015-02-09|00:35:09]
+[DATE|TIME : 2015-02-09|00:35:09]
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 16
+RSSI: 16
+[DATE|TIME : 2015-02-09|00:35:09]
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+DEVICE STATE: READY
+[COM16] [2015-02-09|00:35:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+[DATE|TIME : 2015-02-09|00:35:11]
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM17] [2015-02-09|00:36:18] Hanging up call from 0019543679247...
+[DATE|TIME : 2015-02-09|00:36:18]
+[COM17] [2015-02-09|00:36:18] Trying: ATH
+[COM17] [2015-02-09|00:36:18] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM17] [2015-02-09|00:36:20] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501050918961FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501050918961FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+Request Successful. Assigned request ID = 2537
+ID: 2537
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+[DATE|TIME : 2015-02-09|00:36:21]
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|00:36:21] Logging diagnostic vector...
+[COM22] [2015-02-09|00:40:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM20] [2015-02-09|00:40:12] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-09|00:40:13]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+RSSI: 16
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-09|00:40:13]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-09|00:40:14] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-09|00:40:15]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|00:40:16] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|00:40:17]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|00:45:14] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
+[COM20] [2015-02-09|00:45:15] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-09|00:45:16] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|00:45:19] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|00:50:16] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-09|00:50:16]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM20] [2015-02-09|00:50:17] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-09|00:50:17]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-09|00:50:19] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-09|00:50:19]
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-09|00:50:21]
+[COM17] [2015-02-09|00:50:21] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|00:55:18] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|00:55:19]
+CARRIER: Cellcom GN
+[COM20] [2015-02-09|00:55:19] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|00:55:20]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-09|00:55:21] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|00:55:22]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|00:55:23] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+[DATE|TIME : 2015-02-09|00:55:24]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        100
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM20 is valid!
+[DATE|TIME : 2015-02-09|01:00:02]
+PHONE NUMBER: 66589132
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+Examining port COM18...
+[DATE|TIME : 2015-02-09|01:00:03]
+Couldn't connect to COM18 or port already in use!
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+We in business... There's COM ports here!
+[COM22] [2015-02-09|01:00:05] 
+Process started... Listening on COM22...
+[COM22] [2015-02-09|01:00:05] Setting up dongle for voice calls...
+[COM20] [2015-02-09|01:00:05] 
+Process started... Listening on COM20...
+[COM16] [2015-02-09|01:00:05] 
+Process started... Listening on COM16...
+[COM16] [2015-02-09|01:00:05] Setting up dongle for voice calls...
+[COM17] [2015-02-09|01:00:05] 
+Process started... Listening on COM17...
+[COM20] [2015-02-09|01:00:05] Setting up dongle for voice calls...
+[COM17] [2015-02-09|01:00:05] Setting up dongle for voice calls...
+[COM22] [2015-02-09|01:00:05] Initializing COM22 for voice calls...
+[COM16] [2015-02-09|01:00:05] Initializing COM16 for voice calls...
+[COM17] [2015-02-09|01:00:05] Initializing COM17 for voice calls...
+[COM20] [2015-02-09|01:00:05] Initializing COM20 for voice calls...
+[COM22] [2015-02-09|01:00:07] Waiting for a call from Godot... Nothing to be done...
+[COM16] [2015-02-09|01:00:07] Waiting for a call from Godot... Nothing to be done...
+[COM20] [2015-02-09|01:00:07] Waiting for a call from Godot... Nothing to be done...
+[COM17] [2015-02-09|01:00:07] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+ICCID: 892246501050918961FF
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+APPLICATION: polly_game
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+APPLICATION: polly_game
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          3000
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+Examining port COM1...
+[DATE|TIME : 2015-02-09|01:04:30]
+Couldn't connect to COM1 or port already in use!
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM21...
+[DATE|TIME : 2015-02-09|01:04:32]
+Couldn't connect to COM21 or port already in use!
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+We in business... There's COM ports here!
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          3000
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+[DATE|TIME : 2015-02-09|01:05:18]
+PHONE NUMBER: NO_NUMBER
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+[DATE|TIME : 2015-02-09|01:05:19]
+PHONE NUMBER: NO_NUMBER
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+We in business... There's COM ports here!
+[COM22] [2015-02-09|01:05:21] 
+Process started... Listening on COM22...
+[COM22] [2015-02-09|01:05:21] Setting up dongle for voice calls...
+[COM16] [2015-02-09|01:05:21] 
+Process started... Listening on COM16...
+[COM16] [2015-02-09|01:05:21] Setting up dongle for voice calls...
+[COM17] [2015-02-09|01:05:21] 
+Process started... Listening on COM17...
+Started up, found no delayed requests! All clear...
+[COM20] [2015-02-09|01:05:21] 
+Process started... Listening on COM20...
+[COM20] [2015-02-09|01:05:21] Setting up dongle for voice calls...
+[COM17] [2015-02-09|01:05:21] Setting up dongle for voice calls...
+[COM16] [2015-02-09|01:05:22] Initializing COM16 for voice calls...
+[COM20] [2015-02-09|01:05:22] Initializing COM20 for voice calls...
+[COM17] [2015-02-09|01:05:22] Initializing COM17 for voice calls...
+[COM20] [2015-02-09|01:05:23] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-09|01:05:23] Waiting for a call from Godot... Nothing to be done...
+[COM16] [2015-02-09|01:05:23] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501050918961FF
+ICCID: 892246501050918961FF
+ICCID: 892246501005604963FF
+APPLICATION: polly_game
+APPLICATION: polly_browse
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+APPLICATION: polly_game
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          3000
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM22...
+[DATE|TIME : 2015-02-09|01:06:14]
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+PORT COM20 is valid!
+[DATE|TIME : 2015-02-09|01:06:15]
+PHONE NUMBER: 66589132
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+We in business... There's COM ports here!
+[COM22] [2015-02-09|01:06:16] 
+Process started... Listening on COM22...
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-09|01:06:16] Setting up dongle for voice calls...
+[COM20] [2015-02-09|01:06:16] 
+Process started... Listening on COM20...
+[COM16] [2015-02-09|01:06:16] 
+Process started... Listening on COM16...
+[COM17] [2015-02-09|01:06:16] 
+Process started... Listening on COM17...
+[COM16] [2015-02-09|01:06:16] Setting up dongle for voice calls...
+[COM20] [2015-02-09|01:06:16] Setting up dongle for voice calls...
+[COM17] [2015-02-09|01:06:17] Setting up dongle for voice calls...
+[COM22] [2015-02-09|01:06:17] Initializing COM22 for voice calls...
+[COM16] [2015-02-09|01:06:17] Initializing COM16 for voice calls...
+[COM20] [2015-02-09|01:06:17] Initializing COM20 for voice calls...
+[COM17] [2015-02-09|01:06:17] Initializing COM17 for voice calls...
+[COM22] [2015-02-09|01:06:18] Waiting for a call from Godot... Nothing to be done...
+[COM16] [2015-02-09|01:06:19] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+[COM20] [2015-02-09|01:06:19] Waiting for a call from Godot... Nothing to be done...
+[COM17] [2015-02-09|01:06:19] Waiting for a call from Godot... Nothing to be done...
+APPLICATION: polly_browse
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+APPLICATION: polly_game
+ICCID: 892246501050918961FF
+ICCID: 892246501005604963FF
+APPLICATION: polly_game
+APPLICATION: polly_browse
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          3000
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM21...
+[DATE|TIME : 2015-02-09|01:09:27]
+Couldn't connect to COM21 or port already in use!
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+Examining port COM17...
+[DATE|TIME : 2015-02-09|01:09:29]
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+We in business... There's COM ports here!
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-09|01:09:30] 
+Process started... Listening on COM16...
+[COM16] [2015-02-09|01:09:30] Setting up dongle for voice calls...
+[COM17] [2015-02-09|01:09:30] 
+Process started... Listening on COM17...
+[COM17] [2015-02-09|01:09:30] Setting up dongle for voice calls...
+[COM20] [2015-02-09|01:09:30] 
+Process started... Listening on COM20...
+[COM20] [2015-02-09|01:09:30] Setting up dongle for voice calls...
+[COM22] [2015-02-09|01:09:30] 
+Process started... Listening on COM22...
+[COM22] [2015-02-09|01:09:31] Setting up dongle for voice calls...
+[COM17] [2015-02-09|01:09:31] Initializing COM17 for voice calls...
+[COM16] [2015-02-09|01:09:31] Initializing COM16 for voice calls...
+[COM20] [2015-02-09|01:09:31] Initializing COM20 for voice calls...
+[COM22] [2015-02-09|01:09:31] Initializing COM22 for voice calls...
+[COM17] [2015-02-09|01:09:33] Waiting for a call from Godot... Nothing to be done...
+[COM16] [2015-02-09|01:09:33] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-09|01:09:33] Waiting for a call from Godot... Nothing to be done...
+[COM20] [2015-02-09|01:09:33] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501050918961FF
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+APPLICATION: polly_game
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+[DATE|TIME : 2015-02-09|01:09:52]
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM17] [2015-02-09|01:09:53] Hanging up call from 0019543679247...
+[COM17] [2015-02-09|01:09:53] Trying: ATH
+[COM17] [2015-02-09|01:09:53] Response: ATH
+[COM17] [2015-02-09|01:09:54] Trying: AT+CHUP
+[COM17] [2015-02-09|01:09:54] Response: AT+CHUP
+OK
+[COM17] [2015-02-09|01:09:56] Trying: ATH0
+[COM17] [2015-02-09|01:09:56] Response: ATH0
+OK
+[COM17] [2015-02-09|01:09:57] Trying: AT+CHCCS
+[DATE|TIME : 2015-02-09|01:09:57]
+[COM17] [2015-02-09|01:09:57] Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+AT+CHCCS
+COMMAND NOT SUPPORT
+[COM17] [2015-02-09|01:09:59] Trying: AT+CHLD
+[COM17] [2015-02-09|01:09:59] Response: AT+CHLD
++CME ERROR: 50
+[COM17] [2015-02-09|01:10:00] 
+Could not terminate call using any known AT commands...
+Google Voice and Skype are known to have this problem. 
+Is the caller using a VOIP service?
+
+Attempting to restart connection...
+[COM17] [2015-02-09|01:10:01] Hang up unsuccessful! Trying to register caller anyway...
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501050918961FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501050918961FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+Request Successful. Assigned request ID = 2565
+ID: 2565
+[DATE|TIME : 2015-02-09|01:10:03]
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 3
+
+OK
+DEVICE STATE: RINGING
+[COM17] [2015-02-09|01:10:03] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+[DATE|TIME : 2015-02-09|01:10:09]
+Looks like a U.S. number... Returning 0019543679247
+[COM17] [2015-02-09|01:10:09] Hanging up call from 0019543679247...
+[COM17] [2015-02-09|01:10:09] Trying: ATH
+[COM17] [2015-02-09|01:10:09] Response: ATH
+[COM17] [2015-02-09|01:10:11] Trying: AT+CHUP
+[COM17] [2015-02-09|01:10:11] Response: AT+CHUP
+OK
+[COM17] [2015-02-09|01:10:12] Trying: ATH0
+[COM17] [2015-02-09|01:10:12] Response: ATH0
+OK
+[COM17] [2015-02-09|01:10:14] Trying: AT+CHCCS
+[COM17] [2015-02-09|01:10:14] Response: AT+CHCCS
+COMMAND NOT SUPPORT
+[DATE|TIME : 2015-02-09|01:10:15]
+[COM17] [2015-02-09|01:10:15] Trying: AT+CHLD
+[COM17] [2015-02-09|01:10:16] Response: AT+CHLD
++CME ERROR: 50
+[COM17] [2015-02-09|01:10:17] 
+Could not terminate call using any known AT commands...
+Google Voice and Skype are known to have this problem. 
+Is the caller using a VOIP service?
+
+Attempting to restart connection...
+[COM17] [2015-02-09|01:10:18] Hang up unsuccessful! Trying to register caller anyway...
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501050918961FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501050918961FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+[DATE|TIME : 2015-02-09|01:10:19]
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|01:10:20] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        100
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+[DATE|TIME : 2015-02-09|01:14:26]
+PHONE NUMBER: NO_NUMBER
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+[DATE|TIME : 2015-02-09|01:14:27]
+PHONE NUMBER: NO_NUMBER
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+We in business... There's COM ports here!
+[COM20] [2015-02-09|01:14:28] 
+Process started... Listening on COM20...
+[COM20] [2015-02-09|01:14:29] Setting up dongle for voice calls...
+[COM17] [2015-02-09|01:14:29] 
+Process started... Listening on COM17...
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-09|01:14:29] 
+Process started... Listening on COM22...
+[COM22] [2015-02-09|01:14:29] Setting up dongle for voice calls...
+[COM17] [2015-02-09|01:14:29] Setting up dongle for voice calls...
+[COM16] [2015-02-09|01:14:29] 
+Process started... Listening on COM16...
+[COM16] [2015-02-09|01:14:29] Setting up dongle for voice calls...
+[COM20] [2015-02-09|01:14:29] Initializing COM20 for voice calls...
+[COM22] [2015-02-09|01:14:29] Initializing COM22 for voice calls...
+[COM17] [2015-02-09|01:14:30] Initializing COM17 for voice calls...
+[COM16] [2015-02-09|01:14:30] Initializing COM16 for voice calls...
+[COM20] [2015-02-09|01:14:31] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-09|01:14:31] Waiting for a call from Godot... Nothing to be done...
+[COM17] [2015-02-09|01:14:31] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+[COM16] [2015-02-09|01:14:31] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+[DATE|TIME : 2015-02-09|01:14:41]
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM17] [2015-02-09|01:14:41] Hanging up call from 0019543679247...
+[COM17] [2015-02-09|01:14:41] Trying: ATH
+[COM17] [2015-02-09|01:14:42] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM17] [2015-02-09|01:14:43] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501050918961FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501050918961FF
+[DATE|TIME : 2015-02-09|01:14:44]
+HTTP Response:
+
+Your IP is 41.79.236.19
+Request Successful. Assigned request ID = 2566
+ID: 2566
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+[COM17] [2015-02-09|01:14:45] An Exception occurred!
+invalid literal for int() with base 10: '0019543679247"'
+[COM17] [2015-02-09|01:14:45] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\get_call.py", line 71, in listen_on_com_port
+    call_vector = get_diagnostics(at_module)
+  File "C:\Users\PD\Documents\polly\pythonDongle\AT_service.py", line 110, in get_diagnostics
+    state = get_device_state(AT)[0]
+  File "C:\Users\PD\Documents\polly\pythonDongle\AT_service.py", line 143, in get_device_state
+    i = int(at[0][-1].strip('"').split(',')[0].split('\n')[0])
+ValueError: invalid literal for int() with base 10: '0019543679247"'
+0019543679247 Polly Dongle SOS! An Exception occurred!
+[DATE|TIME : 2015-02-09|01:14:45]
+[COM17] [2015-02-09|01:14:45] Moving on...
++CRING Response: 
+^CEND:1,0,0,31
+[COM20] [2015-02-09|01:19:32] Sending keep-alive message to server...
+[COM22] [2015-02-09|01:19:32] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+[DATE|TIME : 2015-02-09|01:19:33]
+RSSI: 15
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+[DATE|TIME : 2015-02-09|01:19:33]
+RSSI: 15
+[COM16] [2015-02-09|01:19:33] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-09|01:19:33]
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|01:19:37] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        100
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+Examining port COM16...
+[DATE|TIME : 2015-02-09|01:22:09]
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+[DATE|TIME : 2015-02-09|01:22:11]
+PHONE NUMBER: NO_NUMBER
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+We in business... There's COM ports here!
+[COM20] [2015-02-09|01:22:12] 
+Process started... Listening on COM20...
+[COM20] [2015-02-09|01:22:12] Setting up dongle for voice calls...
+[COM16] [2015-02-09|01:22:12] 
+Process started... Listening on COM16...
+[COM16] [2015-02-09|01:22:12] Setting up dongle for voice calls...
+[COM22] [2015-02-09|01:22:12] 
+Process started... Listening on COM22...
+[COM22] [2015-02-09|01:22:12] Setting up dongle for voice calls...
+[COM17] [2015-02-09|01:22:12] 
+Process started... Listening on COM17...
+[COM17] [2015-02-09|01:22:12] Setting up dongle for voice calls...
+Started up, found no delayed requests! All clear...
+[COM20] [2015-02-09|01:22:12] Initializing COM20 for voice calls...
+[COM22] [2015-02-09|01:22:13] Initializing COM22 for voice calls...
+[COM16] [2015-02-09|01:22:13] Initializing COM16 for voice calls...
+[COM17] [2015-02-09|01:22:13] Initializing COM17 for voice calls...
+[COM20] [2015-02-09|01:22:14] Waiting for a call from Godot... Nothing to be done...
+[COM16] [2015-02-09|01:22:14] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-09|01:22:14] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+[COM17] [2015-02-09|01:22:14] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+APPLICATION: polly_browse
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+[DATE|TIME : 2015-02-09|01:22:27]
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM17] [2015-02-09|01:22:27] Hanging up call from 0019543679247...
+[COM17] [2015-02-09|01:22:27] Trying: ATH
+[COM17] [2015-02-09|01:22:27] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM17] [2015-02-09|01:22:29] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501050918961FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501050918961FF
+[DATE|TIME : 2015-02-09|01:22:30]
+HTTP Response:
+
+Your IP is 41.79.236.19
+Request Successful. Assigned request ID = 2567
+ID: 2567
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|01:22:31] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+[DATE|TIME : 2015-02-09|01:22:40]
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM22] [2015-02-09|01:22:40] Hanging up call from 0019543679247...
+[COM22] [2015-02-09|01:22:40] Trying: ATH
+[COM22] [2015-02-09|01:22:41] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:22:42] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+[DATE|TIME : 2015-02-09|01:22:43]
+HTTP Response:
+
+Your IP is 41.79.236.19
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:22:44] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+[DATE|TIME : 2015-02-09|01:22:45]
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM22] [2015-02-09|01:22:45] Hanging up call from 0019543679247...
+[COM22] [2015-02-09|01:22:45] Trying: ATH
+[COM22] [2015-02-09|01:22:45] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:22:47] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+[DATE|TIME : 2015-02-09|01:22:47]
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:22:48] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+[DATE|TIME : 2015-02-09|01:23:19]
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM17] [2015-02-09|01:23:19] Hanging up call from 0019543679247...
+[COM17] [2015-02-09|01:23:20] Trying: ATH
+[COM17] [2015-02-09|01:23:20] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM17] [2015-02-09|01:23:21] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501050918961FF with Polly...
+[DATE|TIME : 2015-02-09|01:23:21]
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501050918961FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+Request Successful. Assigned request ID = 2568
+ID: 2568
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|01:23:23] Logging diagnostic vector...
+[DATE|TIME : 2015-02-09|01:23:36]
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM22] [2015-02-09|01:23:36] Hanging up call from 0019543679247...
+[COM22] [2015-02-09|01:23:36] Trying: ATH
+[COM22] [2015-02-09|01:23:36] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:23:38] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+[DATE|TIME : 2015-02-09|01:23:38]
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-09|01:23:39]
+[COM22] [2015-02-09|01:23:39] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM22] [2015-02-09|01:23:40] Hanging up call from 0019543679247...
+[COM22] [2015-02-09|01:23:40] Trying: ATH
+[COM22] [2015-02-09|01:23:40] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:23:42] Hang up successful!
+[DATE|TIME : 2015-02-09|01:23:42]
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-09|01:23:43]
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:23:43] Logging diagnostic vector...
+[DATE|TIME : 2015-02-09|01:26:42]
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM17] [2015-02-09|01:26:42] Hanging up call from 0019543679247...
+[COM17] [2015-02-09|01:26:42] Trying: ATH
+[COM17] [2015-02-09|01:26:43] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM17] [2015-02-09|01:26:44] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+[DATE|TIME : 2015-02-09|01:26:44]
+Registering phno=0019543679247 and iccid=892246501050918961FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501050918961FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+Request Successful. Assigned request ID = 2569
+ID: 2569
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-09|01:26:46]
+[COM17] [2015-02-09|01:26:46] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM17] [2015-02-09|01:26:47] Hanging up call from 0019543679247...
+[COM17] [2015-02-09|01:26:48] Trying: ATH
+[COM17] [2015-02-09|01:26:48] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM17] [2015-02-09|01:26:49] Hang up successful!
+[DATE|TIME : 2015-02-09|01:26:49]
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501050918961FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501050918961FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-09|01:26:51]
+DEVICE STATE: READY
+[COM17] [2015-02-09|01:26:51] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM22] [2015-02-09|01:27:01] Hanging up call from SKYPE|BLANK...
+[COM22] [2015-02-09|01:27:01] Trying: ATH
+[COM22] [2015-02-09|01:27:01] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[DATE|TIME : 2015-02-09|01:27:02]
+[COM22] [2015-02-09|01:27:02] Hang up successful!
+[COM22] [2015-02-09|01:27:02] Will not register this call due to blank number...
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:27:03] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+[DATE|TIME : 2015-02-09|01:27:04]
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM22] [2015-02-09|01:27:04] Hanging up call from SKYPE|BLANK...
+[COM22] [2015-02-09|01:27:04] Trying: ATH
+[COM22] [2015-02-09|01:27:04] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:27:06] Hang up successful!
+[COM22] [2015-02-09|01:27:06] Will not register this call due to blank number...
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+[DATE|TIME : 2015-02-09|01:27:06]
+RSSI: 11
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:27:07] Logging diagnostic vector...
+[COM20] [2015-02-09|01:27:16] Sending keep-alive message to server...
+[COM16] [2015-02-09|01:27:16] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+[DATE|TIME : 2015-02-09|01:27:17]
+RSSI: 12
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+[DATE|TIME : 2015-02-09|01:27:17]
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[DATE|TIME : 2015-02-09|01:27:20]
+[COM22] [2015-02-09|01:27:20] Hanging up call from SKYPE|BLANK...
+[COM22] [2015-02-09|01:27:20] Trying: ATH
+[COM22] [2015-02-09|01:27:20] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:27:22] Hang up successful!
+[COM22] [2015-02-09|01:27:22] Will not register this call due to blank number...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-09|01:27:23]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:27:23] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM22] [2015-02-09|01:27:24] Hanging up call from SKYPE|BLANK...
+[COM22] [2015-02-09|01:27:24] Trying: ATH
+[COM22] [2015-02-09|01:27:24] Response: ATH
+^CEND:1,0,1,17
+
+OK
+[DATE|TIME : 2015-02-09|01:27:26]
+Call terminated!
+[COM22] [2015-02-09|01:27:26] Hang up successful!
+[COM22] [2015-02-09|01:27:26] Will not register this call due to blank number...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:27:27] Logging diagnostic vector...
+[DATE|TIME : 2015-02-09|01:27:28]
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM22] [2015-02-09|01:27:28] Hanging up call from SKYPE|BLANK...
+[COM22] [2015-02-09|01:27:28] Trying: ATH
+[COM22] [2015-02-09|01:27:28] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:27:29] Hang up successful!
+[COM22] [2015-02-09|01:27:29] Will not register this call due to blank number...
+[DATE|TIME : 2015-02-09|01:27:30]
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:27:30] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+[DATE|TIME : 2015-02-09|01:27:32]
+Could not process number.
+[COM22] [2015-02-09|01:27:32] Hanging up call from SKYPE|BLANK...
+[COM22] [2015-02-09|01:27:32] Trying: ATH
+[COM22] [2015-02-09|01:27:32] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:27:33] Hang up successful!
+[COM22] [2015-02-09|01:27:33] Will not register this call due to blank number...
+[COM17] [2015-02-09|01:27:33] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|01:27:34]
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:27:34] Logging diagnostic vector...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM22] [2015-02-09|01:27:35] Hanging up call from SKYPE|BLANK...
+[COM22] [2015-02-09|01:27:35] Trying: ATH
+[DATE|TIME : 2015-02-09|01:27:36]
+[COM22] [2015-02-09|01:27:36] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:27:37] Hang up successful!
+[COM22] [2015-02-09|01:27:37] Will not register this call due to blank number...
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-09|01:27:38]
+[COM22] [2015-02-09|01:27:38] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "+001302",17,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : +001302
+Looks like a U.S. number... Returning 001302
+[COM22] [2015-02-09|01:27:41] Hanging up call from 001302...
+[COM22] [2015-02-09|01:27:41] Trying: ATH
+[COM22] [2015-02-09|01:27:41] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:27:42] Hang up successful!
+[DATE|TIME : 2015-02-09|01:27:42]
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=001302 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=001302&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+Request Successful. Assigned request ID = 2570
+ID: 2570
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
+RSSI: 10
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-09|01:27:44]
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:27:44] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM22] [2015-02-09|01:27:46] Hanging up call from SKYPE|BLANK...
+[COM22] [2015-02-09|01:27:46] Trying: ATH
+[COM22] [2015-02-09|01:27:46] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[DATE|TIME : 2015-02-09|01:27:47]
+[COM22] [2015-02-09|01:27:47] Hang up successful!
+[COM22] [2015-02-09|01:27:47] Will not register this call due to blank number...
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:27:49] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+[DATE|TIME : 2015-02-09|01:27:50]
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM22] [2015-02-09|01:27:50] Hanging up call from SKYPE|BLANK...
+[COM22] [2015-02-09|01:27:50] Trying: ATH
+[COM22] [2015-02-09|01:27:50] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[COM22] [2015-02-09|01:27:52] Hang up successful!
+[COM22] [2015-02-09|01:27:52] Will not register this call due to blank number...
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+[DATE|TIME : 2015-02-09|01:27:52]
+RSSI: 11
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:27:53] Logging diagnostic vector...
+[COM22] [2015-02-09|01:28:04] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|01:28:05]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+[DATE|TIME : 2015-02-09|01:28:29]
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM17] [2015-02-09|01:28:29] Hanging up call from SKYPE|BLANK...
+[COM17] [2015-02-09|01:28:29] Trying: ATH
+[COM17] [2015-02-09|01:28:30] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[COM17] [2015-02-09|01:28:31] Hang up successful!
+[COM17] [2015-02-09|01:28:31] Will not register this call due to blank number...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+[DATE|TIME : 2015-02-09|01:28:31]
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|01:28:32] Logging diagnostic vector...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[DATE|TIME : 2015-02-09|01:29:44]
+[COM17] [2015-02-09|01:29:44] Hanging up call from 0019543679247...
+[COM17] [2015-02-09|01:29:44] Trying: ATH
+[COM17] [2015-02-09|01:29:44] Response: ATH
+[COM17] [2015-02-09|01:29:45] Trying: AT+CHUP
+[COM17] [2015-02-09|01:29:45] Response: AT+CHUP
+OK
+[COM17] [2015-02-09|01:29:47] Trying: ATH0
+[COM17] [2015-02-09|01:29:47] Response: ATH0
+OK
+[COM17] [2015-02-09|01:29:48] Trying: AT+CHCCS
+[COM17] [2015-02-09|01:29:49] Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+AT+CHCCS
+COMMAND NOT SUPPORT
+[COM17] [2015-02-09|01:29:50] Trying: AT+CHLD
+[DATE|TIME : 2015-02-09|01:29:50]
+[COM17] [2015-02-09|01:29:50] Response: AT+CHLD
++CME ERROR: 50
+[COM17] [2015-02-09|01:29:51] 
+Could not terminate call using any known AT commands...
+Google Voice and Skype are known to have this problem. 
+Is the caller using a VOIP service?
+
+Attempting to restart connection...
+[COM17] [2015-02-09|01:29:52] Hang up unsuccessful! Trying to register caller anyway...
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501050918961FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501050918961FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+Request Successful. Assigned request ID = 2571
+ID: 2571
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
+[DATE|TIME : 2015-02-09|01:29:54]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 3
+
+OK
+DEVICE STATE: RINGING
+[COM17] [2015-02-09|01:29:55] Logging diagnostic vector...
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        100
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+Examining port COM17...
+[DATE|TIME : 2015-02-09|01:30:02]
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+[DATE|TIME : 2015-02-09|01:30:04]
+PHONE NUMBER: 66589132
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+We in business... There's COM ports here!
+[COM17] [2015-02-09|01:30:05] 
+Process started... Listening on COM17...
+[COM17] [2015-02-09|01:30:05] Setting up dongle for voice calls...
+[COM20] [2015-02-09|01:30:05] 
+Process started... Listening on COM20...
+[COM20] [2015-02-09|01:30:05] Setting up dongle for voice calls...
+[COM16] [2015-02-09|01:30:05] 
+Process started... Listening on COM16...
+[COM16] [2015-02-09|01:30:05] Setting up dongle for voice calls...
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-09|01:30:05] 
+Process started... Listening on COM22...
+[COM22] [2015-02-09|01:30:05] Setting up dongle for voice calls...
+[COM16] [2015-02-09|01:30:06] Initializing COM16 for voice calls...
+[COM20] [2015-02-09|01:30:06] Initializing COM20 for voice calls...
+[COM17] [2015-02-09|01:30:06] Initializing COM17 for voice calls...
+[COM22] [2015-02-09|01:30:06] Initializing COM22 for voice calls...
+[COM16] [2015-02-09|01:30:08] Waiting for a call from Godot... Nothing to be done...
+[COM20] [2015-02-09|01:30:08] Waiting for a call from Godot... Nothing to be done...
+[COM17] [2015-02-09|01:30:08] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-09|01:30:08] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+ICCID: 892246501005604963FF
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+APPLICATION: polly_game
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+APPLICATION: polly_browse
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+[DATE|TIME : 2015-02-09|01:30:12]
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM17] [2015-02-09|01:30:12] Hanging up call from 0019543679247...
+[COM17] [2015-02-09|01:30:12] Trying: ATH
+[COM17] [2015-02-09|01:30:12] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM17] [2015-02-09|01:30:14] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501050918961FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501050918961FF
+[DATE|TIME : 2015-02-09|01:30:14]
+HTTP Response:
+
+Your IP is 41.79.236.19
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|01:30:16] Logging diagnostic vector...
+[COM22] [2015-02-09|01:35:09] Sending keep-alive message to server...
+[COM16] [2015-02-09|01:35:09] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+[DATE|TIME : 2015-02-09|01:35:10]
+RSSI: 11
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
+[DATE|TIME : 2015-02-09|01:35:10]
+RSSI: 10
+[COM20] [2015-02-09|01:35:10] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+[DATE|TIME : 2015-02-09|01:35:10]
+RSSI: 11
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|01:35:14] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-09|01:35:14]
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-09|01:40:12] Sending keep-alive message to server...
+[COM16] [2015-02-09|01:40:12] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
+RSSI: 10
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM20] [2015-02-09|01:40:13] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-09|01:40:13]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
+[DATE|TIME : 2015-02-09|01:40:13]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-09|01:40:14]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-09|01:40:16] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 10,99
+
+OK
+RSSI: 10
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-09|01:40:17]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 41.79.236.19
+Request Successful. Assigned request ID = 2578
+ID: 2578
+Delayed request successfully sent!
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         ON
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        100
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+[DATE|TIME : 2015-02-09|02:00:02]
+PHONE NUMBER: NO_NUMBER
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+Examining port COM17...
+[DATE|TIME : 2015-02-09|02:00:04]
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+We in business... There's COM ports here!
+[COM22] [2015-02-09|02:00:04] 
+Process started... Listening on COM22...
+[COM17] [2015-02-09|02:00:04] 
+Process started... Listening on COM17...
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-09|02:00:04] 
+Process started... Listening on COM16...
+[COM16] [2015-02-09|02:00:05] Setting up dongle for voice calls...
+[COM17] [2015-02-09|02:00:05] Setting up dongle for voice calls...
+[COM22] [2015-02-09|02:00:05] Setting up dongle for voice calls...
+[COM20] [2015-02-09|02:00:05] 
+Process started... Listening on COM20...
+[COM20] [2015-02-09|02:00:05] Setting up dongle for voice calls...
+[COM16] [2015-02-09|02:00:05] Initializing COM16 for voice calls...
+[COM17] [2015-02-09|02:00:05] Initializing COM17 for voice calls...
+[COM22] [2015-02-09|02:00:05] Initializing COM22 for voice calls...
+[COM20] [2015-02-09|02:00:06] Initializing COM20 for voice calls...
+[COM16] [2015-02-09|02:00:07] Waiting for a call from Godot... Nothing to be done...
+[COM17] [2015-02-09|02:00:07] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-09|02:00:07] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+APPLICATION: polly_game
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+[COM20] [2015-02-09|02:00:08] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...

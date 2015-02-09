@@ -140,10 +140,14 @@ def get_device_state(AT):
 	at = check_matches_expected_response(resp, d.DEVICE_STATE, ":")
 	vals = ['READY','UNAVAILABLE','UNKNOWN','RINGING','CALL_IN_PROGRESS','ASLEEP']
 	if at[1]:
-		i = int(at[0][-1].strip('"').split(',')[0].split('\n')[0])
-		state = vals[i]
-		echo("DEVICE STATE: " + state)
-		return (state,True)
+		try:
+			i = int(at[0][-1].replace('"','').split(',')[0].split('\n')[0])
+			state = vals[i]
+			echo("DEVICE STATE: " + state)
+			return (state,True)
+		except Exception:
+			echo("Exception occurred! Call interrupted!")
+			return (vals[4],True) # in case an incoming call comes while reading this...
 	else: return (vals[2],False)
 
 # ====================================================== #

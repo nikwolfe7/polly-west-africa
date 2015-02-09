@@ -1,0 +1,13573 @@
+STARTED:[2015-02-06|10:00:02]
+OK
+AT+CNUM
+OK
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 16
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 16
+
+^RSSI: 15
+
+^RSSI: 16
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 15
+
+^RSSI: 14
+
+^RSSI: 13
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+
+^RSSI: 14
+ATE1V1
+OK
+
+^RSSI: 14
+
+^RSSI: 14
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,2,"61105",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,1,"Gellcom",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 15,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 15,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,1,"Gellcom",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 15,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 15,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,1,"Gellcom",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+0
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+Q: 12,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,1,"Gellcom",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,1,"Gellcom",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,2,"61105",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+om GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,2,"61105",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 3
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "+00123456",17,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 3
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+ATH
+^CEND:1,0,1,17
+
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CRING: VOICE
+
++CLIP: "+00123456",17,"",,"",0
+ATH
+^CEND:1,0,0,17
+
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT
+OK
+
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+ATZ
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+om GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+ATZ
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATE1V1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 15,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 15,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CLIP=1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+ATS0=0
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 11,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+ATE1V1
+OK
+AT+CNUM
+OK
+ATE1V1
+OK
+AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATZ
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATE1V1
+OK
+ATZ
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+AT+CRC=1
+OK
+ATE1V1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CLIP=1
+OK
+AT+CRC=1
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+ATS0=0
+OK
+AT+CLIP=1
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+AT^CURC=0
+OK
+ATS0=0
+OK
+AT^CURC=0
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+Q: 9,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+CSQ
++CSQ: 14,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS=3,0
+OK
+AT
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+COPS=3,0
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+CSQ
++CSQ: 13,99
+
+OK
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+COPS=3,0
+AT+COPS=3,0
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+COPS=3,0
+OK
+AT+COPS=3,0
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+AT
+OK
+AT+CPAS
++CPAS: 0
+
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
+AT
+OK
