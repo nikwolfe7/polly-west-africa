@@ -13,3 +13,110 @@ Searching for COM ports...
 
 No detected COM ports. Try inserting/reinserting the dongle.
 Attempting to send delayed requests...
+Attempting to send delayed requests...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2538
+ID: 2538
+Attempting to send delayed requests...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2540
+ID: 2540
+Delayed request successfully sent!
+Attempting to send delayed requests...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2543
+ID: 2543
+Delayed request successfully sent!
+Attempting to send delayed requests...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2544
+ID: 2544
+Delayed request successfully sent!
+Attempting to send delayed requests...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2545
+ID: 2545
+Delayed request successfully sent!
+Started up, found no delayed requests! All clear...
+Attempting to send delayed requests...
+Started up, found no delayed requests! All clear...
+Attempting to send delayed requests...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2546
+ID: 2546
+Delayed request successfully sent!
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Attempting to send delayed requests...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2548
+ID: 2548
+Delayed request successfully sent!
+Attempting to send delayed requests...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2549
+ID: 2549
+Delayed request successfully sent!
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2550
+ID: 2550
+Delayed request successfully sent!
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2551
+ID: 2551
+Delayed request successfully sent!
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2552
+ID: 2552
+Delayed request successfully sent!
+Searching for COM ports...
+
+No detected COM ports. Try inserting/reinserting the dongle.
+Started up, found no delayed requests! All clear...

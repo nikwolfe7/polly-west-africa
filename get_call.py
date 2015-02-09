@@ -12,6 +12,7 @@ import defines
 from find_dongle import find_connected_dongle_ports
 from polly_reg import polly_register
 from process_number import process_for_guinea
+from delayed_requests import send_delayed_requests
 
 
 # ====================================================== #	
@@ -115,7 +116,15 @@ if __name__ == "__main__":
 	else:
 		echo("We in business... There's COM ports here!")
 	
+	# Process queue
 	Q = []
+	
+	# Process delayed requests
+	dreqs = Process(target=send_delayed_requests, args=None)
+	Q.append(dreqs)
+	dreqs.start()
+	
+	# Spin processes off on the dongle ports
 	for p in ports.keys():
 		proc = Process(target=listen_on_com_port, args=(p,))
 		Q.append(proc)

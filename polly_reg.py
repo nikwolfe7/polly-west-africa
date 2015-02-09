@@ -14,6 +14,7 @@ def send_request(http_request):
 		echo("HTTP Response:\n\n"+wp+"\n")
 		echo("ID: "+request_id)
 		return request_id
+	
 	except Exception as e:
 		echo("An Exception occurred!\n" + str(e))
 		echo(traceback.format_exc())
