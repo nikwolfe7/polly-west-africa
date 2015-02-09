@@ -1,6 +1,7 @@
 import base64
 import traceback
 import defines as d
+import http
 try: import urllib.request as urllib2
 except ImportError: import urllib2
 from multiprocessing import Process
@@ -12,6 +13,12 @@ def send_request(http_request):
 		wp = wp.read().decode('utf-8')
 		#print("HTTP Response:\n\n"+wp+"\n")
 		return "SUCCESS" in wp
+	
+	except http.client.BadStatusLine as e:
+		print("An Exception occurred!\n" + str(e))
+		print(traceback.format_exc())
+		print("Moving on... Tired of getting SMSs about this... ")
+		return False
 		
 	except Exception as e:
 		print("An Exception occurred!\n" + str(e))
