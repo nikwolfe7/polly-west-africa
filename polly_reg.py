@@ -6,7 +6,7 @@ except ImportError: import urllib2
 from multiprocessing import Process
 
 def send_request(http_request):
-	#echo("HTTP Request Generated: " + http_request)
+	echo("HTTP Request Generated: " + http_request)
 	try:
 		wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout).read().decode('utf-8').replace("<br>","\n")
 		request_id = "REQUEST_PENDING"
