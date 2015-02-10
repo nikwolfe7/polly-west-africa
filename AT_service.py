@@ -58,12 +58,31 @@ def hang_up(AT):
 
 # ====================================================== #
 # send an SMS, return to voice mode afterwards
-def send_sms(AT,recipient,message):
+def send_sms(AT,recipient,message,from_dongle=False):
 	try:
 		tropo_remote_sms(recipient,message)
 	except Exception as e: 
 		echo(prefix(AT.com) + "An Exception occurred while sending SMS!\n" + str(e))
 		echo(prefix(AT.com) +  traceback.format_exc())
+		echo(prefix(AT.com) + "Attempting to send regular SMS through dongle...\n")
+		time.sleep(d.sms_wait_time)
+		send_ok(AT)
+		send_ok(AT)
+		AT.clear_buffers()
+		echo(prefix(AT.com) + "Initializing "+AT.com+" for SMS...")
+		AT.send_at(d.HIDE_OUTPUT, log=True)
+		AT.send_at(d.ENABLE_SMS_MODE, log=True)
+		AT.send_at(d.DEFINE_SMS_RECIPIENT + '"' + recipient + '"', log=True)
+		AT.send_at(message, log=True)
+		AT.phone.write(bytes([26]))
+		time.sleep(d.sms_wait_time)
+		echo(prefix(AT.com) + "SMS sent! All clear!")
+		send_ok(AT)
+		send_ok(AT)
+		init_for_voice(AT)
+		send_ok(AT)
+		
+	if from_dongle:
 		echo(prefix(AT.com) + "Attempting to send regular SMS through dongle...\n")
 		time.sleep(d.sms_wait_time)
 		send_ok(AT)
