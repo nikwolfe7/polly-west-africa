@@ -2,6 +2,7 @@ import base64
 import traceback
 import defines as d
 import http
+import socket
 try: import urllib.request as urllib2
 except ImportError: import urllib2
 from multiprocessing import Process
@@ -18,6 +19,15 @@ def send_request(http_request):
 		print("An Exception occurred!\n" + str(e))
 		print(traceback.format_exc())
 		print("Moving on... Tired of getting SMSs about this... ")
+		return False
+	
+	except socket.timeout:
+		print("Socket timeout! Current timeout: " + socket.getdefaulttimeout())
+		return False
+	
+	except urllib2.URLError as e:
+		print("URL Error... Timeout?")
+		print(str(e))
 		return False
 		
 	except Exception as e:
