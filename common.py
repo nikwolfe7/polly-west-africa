@@ -20,6 +20,9 @@ def nice_date(): return "["+time.strftime('%Y-%m-%d')+"]"
 # ====================================================== #		
 def nice_date_time(): return "["+time.strftime('%Y-%m-%d|%H:%M:%S')+"]"
 
+# ====================================================== #		
+def web_request_timestamp(): return nice_date_time().strip("][").replace("|","%20").replace(":","%3A")
+
 # ====================================================== #	
 def update_log(log_file,msg):
 	at_log = open(defines.log_dir+log_file,"a")

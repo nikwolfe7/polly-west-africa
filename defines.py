@@ -15,8 +15,9 @@ file_delim = ";"
 tropo_request = "http://api.tropo.com/1.0/sessions?action=create&token=1950c84caa3aa1489428e3946049fdfa96c92736612b6abb738b004d0c8f12c253ae0bdec48ab3828dd1d89d&msg=[MESSAGE]&calltype=GuinDongleStatusSMS&ph=[RECIPIENT]&callerid=%2B14122677909"
 tropo_recipient = "[RECIPIENT]"
 tropo_message = "[MESSAGE]"
-web_request_timeout = 60
+web_request_timeout = None
 socket.setdefaulttimeout(web_request_timeout)
+remote_logging_backup_queue = log_dir + "remote_log_backup_queue.txt"
 
 # ====================================================== #	
 # AT constants
@@ -71,6 +72,7 @@ syslang_prefix = "&syslang="
 msglang_prefix = "&msglang="
 channel_prefix = "&ch="
 iccid_prefix = "&iccid="
+timeofreq_prefix = "&timeofreq="
 channel = "GuinDongle"
 POLLY_GAME = "polly_game"
 POLLY_HEALTH = "polly_health"

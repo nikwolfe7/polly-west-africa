@@ -3,6 +3,7 @@ import traceback
 import defines as d
 import http
 import socket
+import os
 try: import urllib.request as urllib2
 except ImportError: import urllib2
 from multiprocessing import Process
@@ -19,15 +20,18 @@ def send_request(http_request):
 		print("An Exception occurred!\n" + str(e))
 		print(traceback.format_exc())
 		print("Moving on... Tired of getting SMSs about this... ")
+		backup_failed_request(http_request)
 		return False
 	
 	except socket.timeout:
 		print("Socket timeout! Current timeout: " + socket.getdefaulttimeout())
+		backup_failed_request(http_request)
 		return False
 	
 	except urllib2.URLError as e:
 		print("URL Error... Timeout?")
 		print(str(e))
+		backup_failed_request(http_request)
 		return False
 		
 	except Exception as e:
@@ -36,7 +40,20 @@ def send_request(http_request):
 		if str(e) is not '': # hack!!
 			tropo_remote_sms(d.sms_alert_number, d.sms_alert_message+str(e))
 		print("Moving on...")
+		backup_failed_request(http_request)
 		return False
+
+def backup_failed_request(http_request):
+	open(d.remote_logging_backup_queue,'a').write(http_request+"\n")
+
+def retry_backup_queue():
+	if os.path.isfile(d.remote_logging_backup_queue): 
+		failed_logs = [x.strip() for x in open(d.remote_logging_backup_queue).readlines()]
+		open(d.remote_logging_backup_queue,'w')
+		while failed_logs:
+			message = failed_logs.pop(0)
+			print(">>>> Retrying request: "+message)
+			send_request(message)
 
 def get_encoding(message):
 	msg = message.encode('utf-8')
@@ -44,9 +61,13 @@ def get_encoding(message):
 	
 def spin_register_process(http_request):	
 	Q = []
+	# we don't care about doing this quickly, so maintain a backup queue
+	backup = Process(target=retry_backup_queue)
+	Q.append(backup)
 	proc = Process(target=send_request, args=(http_request,))
 	Q.append(proc)
-	proc.start()
+	for p in Q:
+		p.start()
 
 def clean_msg_for_url(msg):
 	return msg.replace(" ","%20").replace("+", "%2B")

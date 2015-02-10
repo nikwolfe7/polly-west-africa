@@ -1,5 +1,5 @@
 import defines as d
-from common import echo
+from common import echo,nice_date_time, web_request_timestamp
 import traceback
 try: import urllib.request as urllib2
 except ImportError: import urllib2
@@ -31,7 +31,10 @@ def polly_request(phno, syslang, msglang, channel, iccid, app_ip):
 	echo("Registering phno="+phno+" and iccid="+iccid+" with Polly...")
 	ip = "http://" + app_ip
 	app = "/" + d.app
-	http_request = ip + app + d.script + phno + d.syslang_prefix + syslang + d.msglang_prefix + msglang + d.channel_prefix + channel + d.iccid_prefix + iccid
+	timeofreq = web_request_timestamp()
+	http_request = ip + app + d.script + phno + d.syslang_prefix + syslang + \
+		d.msglang_prefix + msglang + d.channel_prefix + channel + d.iccid_prefix + iccid + \
+		d.timeofreq_prefix + timeofreq
 	return send_request(http_request)
 
 def spin_register_process(phno, syslang, msglang, channel, iccid, app_ip):	
@@ -53,5 +56,9 @@ def polly_register(phno, syslang=d.fr, msglang=d.fr, channel=d.channel, dest=d.P
 			spin_register_process(phno,syslang,msglang,channel,d.POLLY_GAME_ICCID,d.polly_game_ip)
 		if dest == d.POLLY_BROWSE:
 			spin_register_process(phno,syslang,msglang,channel,d.POLLY_BROWSE_ICCID,d.polly_browse_ip)
-	
-	
+			
+			
+			
+if __name__ == '__main__':
+	polly_request("0019543679247", "AmerEnglish", "AmerEnglish", "GuinDongle", d.POLLY_BROWSE_ICCID, d.polly_browse_ip)
+			
