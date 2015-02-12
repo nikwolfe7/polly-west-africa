@@ -8,7 +8,7 @@ test_url = "http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679
 def send_delayed_requests():
 	if not os.path.isfile(d.log_dir + d.pending_reqs):
 		delayed_reqs = open(d.log_dir + d.pending_reqs,"w")
-		delayed_reqs.write(test_url+"\n")
+		#delayed_reqs.write(test_url+"\n")
 		delayed_reqs.close()
 	
 	delayed_reqs = [l.strip() for l in open(d.log_dir + d.pending_reqs).readlines()]
