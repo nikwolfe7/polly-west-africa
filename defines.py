@@ -10,6 +10,7 @@ pending_reqs = "pending_requests.txt"
 at_log = "AT-log"
 sms_confirm = False
 sms_alert_number = "0019543679247"
+sms_backup_number = sms_alert_number
 sms_alert_message = "Polly Dongle SOS! An Exception occurred! "
 file_delim = ";"
 tropo_request = "http://api.tropo.com/1.0/sessions?action=create&token=1950c84caa3aa1489428e3946049fdfa96c92736612b6abb738b004d0c8f12c253ae0bdec48ab3828dd1d89d&msg=[MESSAGE]&calltype=GuinDongleStatusSMS&ph=[RECIPIENT]&callerid=%2B14122677909"

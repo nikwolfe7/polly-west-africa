@@ -64,9 +64,9 @@ def listen_on_com_port(com):
 						
 						# huge hack!!!
 						if return_for_sms:
-							echo("Sending SMS to " + defines.sms_alert_number)
+							echo("Sending SMS to " + defines.sms_backup_number)
 							echo("Request to send: " + request_id)
-							send_sms(at_module, defines.sms_alert_number, request_id, from_dongle=True)
+							send_sms(at_module, defines.sms_backup_number, request_id, from_dongle=True)
 							echo("Waiting an extra 2 seconds for SMS to complete...")
 							time.sleep(2)
 						
