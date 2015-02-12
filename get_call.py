@@ -58,7 +58,7 @@ def listen_on_com_port(com):
 					request_id = "NONE"
 					if not phno == defines.skype:
 						# ------------------------------------------- #
-						return_for_sms = True # hack!!! change if necessary...
+						return_for_sms = False # hack!!! change if necessary...
 						# ------------------------------------------- # 
 						request_id = polly_register(phno, syslang=lang, msglang=lang, dest=destination, return_request=return_for_sms, retval=True)
 						
