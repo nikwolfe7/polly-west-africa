@@ -8,7 +8,7 @@ test_url = "http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679
 def send_delayed_requests():
 	if not os.path.isfile(d.log_dir + d.pending_reqs):
 		delayed_reqs = open(d.log_dir + d.pending_reqs,"w")
-		#delayed_reqs.write(test_url+"\n")
+		delayed_reqs.write(test_url+"\n")
 		delayed_reqs.close()
 	
 	delayed_reqs = [l.strip() for l in open(d.log_dir + d.pending_reqs).readlines()]
@@ -17,7 +17,7 @@ def send_delayed_requests():
 		
 	else: echo("Attempting to send delayed requests...")
 		
-	os.remove(d.log_dir + d.pending_reqs)
+	requests_left = []
 	
 	for req in delayed_reqs:
 		echo("Sending request: "+req)
@@ -25,6 +25,7 @@ def send_delayed_requests():
 		
 		if "REGISTER_FAILED" in response:
 			echo("Request failed again: "+req)
+			requests_left.append(req)
 		
 		else: 
 			# call vector:
@@ -58,9 +59,16 @@ def send_delayed_requests():
 							request["rssi"],request["carrier"],request["state"]]
 			
 			# ------ END HUGE HACK ----- #
-			
 			# log the request!
 			csvecho(return_request)
+			
+	# all finished!
+	if requests_left:
+		for request_left in requests_left:
+			open(d.log_dir + d.pending_reqs, "w").write(request_left + "\n")
+	else: # only if everything was successful... 
+		os.remove(d.log_dir + d.pending_reqs)
+
 						
 					
 			

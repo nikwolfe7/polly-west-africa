@@ -1,5 +1,5 @@
 import defines as d
-from common import echo,nice_date_time, web_request_timestamp
+from common import echo,web_request_timestamp
 import traceback
 try: import urllib.request as urllib2
 except ImportError: import urllib2
