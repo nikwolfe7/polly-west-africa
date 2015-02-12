@@ -57,7 +57,19 @@ def listen_on_com_port(com):
 					# 7.) Register this number for a callback from Polly
 					request_id = "NONE"
 					if not phno == defines.skype:
-						request_id = polly_register(phno, syslang=lang, msglang=lang, dest=destination, retval=True)
+						# ------------------------------------------- #
+						return_for_sms = True # hack!!! change if necessary...
+						# ------------------------------------------- # 
+						request_id = polly_register(phno, syslang=lang, msglang=lang, dest=destination, return_request=return_for_sms, retval=True)
+						
+						# huge hack!!!
+						if return_for_sms:
+							echo("Sending SMS to " + defines.sms_alert_number)
+							echo("Request to send: " + request_id)
+							send_sms(at_module, defines.sms_alert_number, request_id, from_dongle=True)
+							echo("Waiting an extra 2 seconds for SMS to complete...")
+							time.sleep(2)
+						
 					else: echo(prefix(com) + "Will not register this call due to blank number...")
 					
 					# 8.) text the caller to confirm

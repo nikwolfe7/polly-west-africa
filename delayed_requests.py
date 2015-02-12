@@ -68,9 +68,7 @@ def send_delayed_requests():
 			open(d.log_dir + d.pending_reqs, "w").write(request_left + "\n")
 	else: # only if everything was successful... 
 		os.remove(d.log_dir + d.pending_reqs)
-
-						
-					
+				
 			
 			
 			

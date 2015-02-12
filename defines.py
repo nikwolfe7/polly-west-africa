@@ -22,7 +22,7 @@ remote_logging_backup_queue = log_dir + "remote_log_backup_queue.txt"
 # ====================================================== #	
 # AT constants
 wait_time = 0.25 # slower than this seems to screw things up
-sms_wait_time = 3
+sms_wait_time = 5
 refresh_rate = 0.1
 
 # ====================================================== #	
