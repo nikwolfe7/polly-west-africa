@@ -21,6 +21,8 @@ def mine_logs_for_requests():
     f = open(d.log_dir + d.pending_reqs,"w")
     for unique_url in unique_urls:
         print(unique_url)
+        number = unique_url.split(d.script)[-1].split(d.syslang_prefix)[0].strip()
+        open(d.reminder_list,"a").write(number+"\n")
         f.write(unique_url + "\n")
     f.close()
     print("Finished!")

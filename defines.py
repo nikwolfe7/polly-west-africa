@@ -8,6 +8,7 @@ logfile = "logfile"
 logfile_full = "logfile-full"
 pending_reqs = "pending_requests.txt"
 pending_reqs_fulfilled = "pending_requests_fulfilled.txt"
+reminder_list = "reminder_list.txt"
 at_log = "AT-log"
 sms_confirm = False
 sms_alert_number = "0019543679247"
