@@ -60,7 +60,7 @@ def send_delayed_requests():
 			
 			# ------ END HUGE HACK ----- #
 			# log the request!
-			csvecho(return_request)
+			csvecho(return_request, retval=False)
 			
 	# all finished!
 	if requests_left:
