@@ -13,7 +13,7 @@ def send_request(http_request, return_request=False):
 	
 	try:
 		wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout).read().decode('utf-8').replace("<br>","\n")
-		request_id = "REQUEST_PENDING"
+		request_id = d.REQUEST_PENDING
 		if "ID =" in wp: request_id = wp.split("=")[-1].strip()
 		echo("HTTP Response:\n\n"+wp+"\n")
 		echo("ID: "+request_id)
@@ -30,7 +30,7 @@ def send_request(http_request, return_request=False):
 		pending.write(http_request + "\n")
 		pending.close()
 		echo("Failed request logged!")
-		return "REGISTER_FAILED"
+		return d.REGISTER_FAILED
 
 def polly_request(phno, syslang, msglang, channel, iccid, app_ip, return_request=False):
 	echo("Registering phno="+phno+" and iccid="+iccid+" with Polly...")

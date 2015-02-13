@@ -80,6 +80,8 @@ POLLY_GAME = "polly_game"
 POLLY_HEALTH = "polly_health"
 POLLY_SPREAD = "polly_spread"
 POLLY_BROWSE = "polly_browse"
+REQUEST_PENDING = "REQUEST_PENDING"
+REGISTER_FAILED = "REGISTER_FAILED"
 
 # Remote monitor update
 ip_optiplex = "128.2.211.183"

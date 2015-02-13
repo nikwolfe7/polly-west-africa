@@ -1,0 +1,208 @@
+STARTED:[2015-02-13|03:22:26]
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224660006154&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2010%3A59%3A25
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224660006154&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2010%3A59%3A25
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 555
+ID: 555
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666730553&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2012%3A34%3A27
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666730553&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2012%3A34%3A27
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 556
+[DATE|TIME : 2015-02-13|03:22:27]
+ID: 556
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224656216341&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2017%3A50%3A15
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224656216341&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2017%3A50%3A15
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 557
+ID: 557
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224656216341&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2017%3A52%3A38
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224656216341&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2017%3A52%3A38
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+[DATE|TIME : 2015-02-13|03:22:28]
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A12%3A02
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A12%3A02
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224660006148&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2016%3A06%3A16
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224660006148&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2016%3A06%3A16
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 558
+[DATE|TIME : 2015-02-13|03:22:29]
+ID: 558
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662324816&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2016%3A12%3A23
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662324816&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2016%3A12%3A23
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 559
+ID: 559
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A28%3A12
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A28%3A12
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+[DATE|TIME : 2015-02-13|03:22:30]
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666651447&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2013%3A48%3A22
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666651447&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2013%3A48%3A22
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 560
+ID: 560
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A14%3A24
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A14%3A24
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+[DATE|TIME : 2015-02-13|03:22:30]
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A19%3A03
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A19%3A03
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666730553&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2010%3A02%3A06
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666730553&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2010%3A02%3A06
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+[DATE|TIME : 2015-02-13|03:22:31]
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A25%3A49
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A25%3A49
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224655244386&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2018%3A53%3A19
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224655244386&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2018%3A53%3A19
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 561
+[DATE|TIME : 2015-02-13|03:22:32]
+ID: 561
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666813504&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-11%2023%3A58%3A46
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666813504&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-11%2023%3A58%3A46
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 562
+ID: 562
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A16%3A48
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A16%3A48
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+[DATE|TIME : 2015-02-13|03:22:33]
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662324816&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2016%3A08%3A39
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662324816&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2016%3A08%3A39
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666651447&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2013%3A51%3A34
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666651447&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2013%3A51%3A34
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+[DATE|TIME : 2015-02-13|03:22:34]
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224657104344&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2015%3A10%3A55
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224657104344&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2015%3A10%3A55
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 563
+ID: 563
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666730553&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2010%3A04%3A26
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224666730553&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2010%3A04%3A26
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+[DATE|TIME : 2015-02-13|03:22:34]
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2021%3A03%3A40
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2021%3A03%3A40
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A35%3A53
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=224662411099&syslang=GuinFrench&msglang=GuinFrench&ch=GuinDongle&iccid=892246501050918961FF&timeofreq=2015-02-12%2019%3A35%3A53
+HTTP Response:
+
+Your IP is 71.199.122.14
+There are already Pending/In Progress Call-me-back requests from this phone number.
+[DATE|TIME : 2015-02-13|03:22:35]
+ID: REQUEST_PENDING
+Delayed request successfully sent! Logging request...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 565
+ID: 565
+Delayed request successfully sent! Logging request...
+Started up, found no delayed requests! All clear...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 571
+ID: 571
+Delayed request successfully sent! Logging request...

@@ -1,6 +1,6 @@
 from collections import Counter
 import defines as d
-file_to_mine = "/media/nwolfe/data/Dropbox/workspace/polly-west-africa/logs/logfile-full-2015-02-12.txt"
+file_to_mine = "./logs/logfile-full-2015-02-12.txt"
 needle = "HTTP Request Generated:"
 discard_needle = "9543679247"
 

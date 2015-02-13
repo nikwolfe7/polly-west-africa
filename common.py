@@ -80,3 +80,17 @@ def csvecho(msg, pre="CSV", retval=True):
 def connect(com):
 	return serial.Serial(port=com,baudrate=defines.baudrate,timeout=None)
 	
+# ====================================================== #	
+def is_number(var):
+	try:
+		float(var)
+		return True
+	except ValueError:
+		pass
+	try:
+		import unicodedata
+		unicodedata.numeric(var)
+		return True
+	except (TypeError,ValueError):
+		pass
+	return False
