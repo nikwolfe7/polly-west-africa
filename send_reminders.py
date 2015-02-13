@@ -14,7 +14,7 @@ def send_message_to_reminder_list():
         print("Sending SMS to "+reminder+"...")
         print(message)
         remote_monitor.tropo_remote_sms(reminder, message)
-        time.sleep(5)
+        time.sleep(1)
 
 if __name__ == '__main__':
     print(str(len(message)) + " chars")
