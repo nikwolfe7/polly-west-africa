@@ -206,3 +206,13 @@ Your IP is 71.199.122.14
 Request Successful. Assigned request ID = 571
 ID: 571
 Delayed request successfully sent! Logging request...
+Started up, found no delayed requests! All clear...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 604
+ID: 604
+Delayed request successfully sent! Logging request...
