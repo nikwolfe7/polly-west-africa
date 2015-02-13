@@ -4,7 +4,7 @@ file_to_mine = "/media/nwolfe/data/Dropbox/workspace/polly-west-africa/logs/logf
 needle = "HTTP Request Generated:"
 discard_needle = "9543679247"
 
-def main():
+def mine_logs_for_requests():
     logfile = [l.strip() for l in open(file_to_mine).readlines() if l.strip != ""]
     count = 0
     unique_urls = [l.strip() for l in open(d.log_dir+d.pending_reqs,"w+").readlines()]
@@ -26,5 +26,5 @@ def main():
     print("Finished!")
             
 if __name__ == '__main__':
-    main()
+    mine_logs_for_requests()
     
