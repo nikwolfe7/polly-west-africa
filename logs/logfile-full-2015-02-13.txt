@@ -22248,3 +22248,13 @@ Request Successful. Assigned request ID = 632
 ID: 632
 Delayed request successfully sent! Logging request...
 All requests sent! Removing ./logs/pending_requests.txt
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 633
+ID: 633
+Delayed request successfully sent! Logging request...
+All requests sent! Removing ./logs/pending_requests.txt

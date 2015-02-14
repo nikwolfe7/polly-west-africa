@@ -19,8 +19,7 @@ def send_request(http_request):
 	except ValueError as e:
 		print("Unknown URL type! But fuck it, right?\n" + str(e))
 		print("Here it is: " + http_request)
-		if http_request.startswith("http://"):
-			backup_failed_request(http_request)
+		backup_failed_request(http_request)
 		return False
 	
 	except http.client.BadStatusLine as e:
@@ -44,8 +43,7 @@ def send_request(http_request):
 	except (urllib2.UnknownHandler,urllib2.ValueError) as e:
 		print("Unknown URL type! But fuck it, right?\n" + str(e))
 		print("Here it is: " + http_request)
-		if http_request.startswith("http://"):
-			backup_failed_request(http_request)
+		backup_failed_request(http_request)
 		return False
 		
 	except Exception as e:
@@ -54,12 +52,12 @@ def send_request(http_request):
 		if str(e) is not '': # hack!!
 			tropo_remote_sms(d.sms_alert_number, d.sms_alert_message+str(e))
 		print("Moving on...")
-		if http_request.startswith("http://"):
-			backup_failed_request(http_request)
+		backup_failed_request(http_request)
 		return False
 
 def backup_failed_request(http_request):
-	open(d.remote_logging_backup_queue,'a').write(http_request+"\n")
+	if http_request.startswith("http://"):
+		open(d.remote_logging_backup_queue,'a').write(http_request+"\n")
 
 def retry_backup_queue():
 	if os.path.isfile(d.remote_logging_backup_queue): 
