@@ -49,7 +49,7 @@ def send_request(http_request):
 	except Exception as e:
 		print("An Exception occurred!\n" + str(e))
 		print(traceback.format_exc())
-		if str(e) is not '': # hack!!
+		if str(e) is not '' and http_request.startswith("http://"): # hack!!
 			tropo_remote_sms(d.sms_alert_number, d.sms_alert_message+str(e))
 		print("Moving on...")
 		backup_failed_request(http_request)
