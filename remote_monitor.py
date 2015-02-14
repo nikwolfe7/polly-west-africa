@@ -16,6 +16,13 @@ def send_request(http_request):
 		#print("HTTP Response:\n\n"+wp+"\n")
 		return "SUCCESS" in wp
 	
+	except ValueError as e:
+		print("Unknown URL type! But fuck it, right?\n" + str(e))
+		print("Here it is: " + http_request)
+		if http_request.startswith("http://"):
+			backup_failed_request(http_request)
+		return False
+	
 	except http.client.BadStatusLine as e:
 		print("An Exception occurred!\n" + str(e))
 		print(traceback.format_exc())
@@ -33,6 +40,13 @@ def send_request(http_request):
 		print(str(e))
 		backup_failed_request(http_request)
 		return False
+
+	except (urllib2.UnknownHandler,urllib2.ValueError) as e:
+		print("Unknown URL type! But fuck it, right?\n" + str(e))
+		print("Here it is: " + http_request)
+		if http_request.startswith("http://"):
+			backup_failed_request(http_request)
+		return False
 		
 	except Exception as e:
 		print("An Exception occurred!\n" + str(e))
@@ -40,7 +54,8 @@ def send_request(http_request):
 		if str(e) is not '': # hack!!
 			tropo_remote_sms(d.sms_alert_number, d.sms_alert_message+str(e))
 		print("Moving on...")
-		backup_failed_request(http_request)
+		if http_request.startswith("http://"):
+			backup_failed_request(http_request)
 		return False
 
 def backup_failed_request(http_request):

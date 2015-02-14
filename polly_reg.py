@@ -23,13 +23,6 @@ def send_request(http_request, return_request=False):
 		echo("An Exception occurred!\n" + str(e))
 		echo(traceback.format_exc())
 		echo("Moving on...")
-		
-		# log the failed request
-		echo("Failed to register request! Logging the request to try later...")
-		pending = open(d.log_dir+d.pending_reqs, "a")
-		pending.write(http_request + "\n")
-		pending.close()
-		echo("Failed request logged!")
 		return d.REGISTER_FAILED
 
 def polly_request(phno, syslang, msglang, channel, iccid, app_ip, return_request=False):

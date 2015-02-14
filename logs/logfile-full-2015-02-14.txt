@@ -1,0 +1,3160 @@
+STARTED:[2015-02-14|00:03:14]
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM20...
+[DATE|TIME : 2015-02-14|00:30:02]
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+[DATE|TIME : 2015-02-14|00:30:04]
+PHONE NUMBER: 66589132
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+We in business... There's COM ports here!
+[COM16] [2015-02-14|00:30:06] 
+Process started... Listening on COM16...
+[COM16] [2015-02-14|00:30:06] Setting up dongle for voice calls...
+Started up, found no delayed requests! All clear...
+[COM20] [2015-02-14|00:30:06] 
+Process started... Listening on COM20...
+[COM20] [2015-02-14|00:30:06] Setting up dongle for voice calls...
+[COM16] [2015-02-14|00:30:06] Initializing COM16 for voice calls...
+[COM17] [2015-02-14|00:30:07] 
+Process started... Listening on COM17...
+[COM17] [2015-02-14|00:30:07] Setting up dongle for voice calls...
+[COM20] [2015-02-14|00:30:07] Initializing COM20 for voice calls...
+[COM22] [2015-02-14|00:30:07] 
+Process started... Listening on COM22...
+[COM17] [2015-02-14|00:30:08] Initializing COM17 for voice calls...
+[COM22] [2015-02-14|00:30:08] Setting up dongle for voice calls...
+[COM16] [2015-02-14|00:30:09] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-14|00:30:09] Initializing COM22 for voice calls...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+[COM20] [2015-02-14|00:30:10] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+[COM17] [2015-02-14|00:30:11] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+[COM22] [2015-02-14|00:30:12] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|00:35:38] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+[DATE|TIME : 2015-02-14|00:35:38]
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM20] [2015-02-14|00:35:39] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+[DATE|TIME : 2015-02-14|00:35:39]
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|00:35:40] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+[DATE|TIME : 2015-02-14|00:35:41]
+RSSI: 12
+[COM22] [2015-02-14|00:35:41] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|00:35:42]
+RSSI: 13
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|00:41:08] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
+[COM20] [2015-02-14|00:41:09] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
+[DATE|TIME : 2015-02-14|00:41:09]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|00:41:11]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|00:41:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 11,99
+
+OK
+RSSI: 11
+[COM22] [2015-02-14|00:41:12] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
+[DATE|TIME : 2015-02-14|00:41:12]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|00:41:13]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|00:46:39] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
+[COM20] [2015-02-14|00:46:40] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|00:46:42] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
+[COM22] [2015-02-14|00:46:43] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|00:52:09] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|00:52:09]
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|00:52:11] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|00:52:11]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|00:52:12] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|00:52:12]
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|00:52:14] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|00:52:14]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|00:57:40] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|00:57:40]
+CARRIER: Cellcom GN
+[COM20] [2015-02-14|00:57:41] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|00:57:41]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|00:57:43] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|00:57:43]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|00:57:45] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|00:57:46]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|01:03:10] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[COM20] [2015-02-14|01:03:11] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|01:03:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|01:03:16] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[DATE|TIME : 2015-02-14|01:08:41]
+[COM16] [2015-02-14|01:08:41] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[DATE|TIME : 2015-02-14|01:08:41]
+[COM20] [2015-02-14|01:08:41] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-14|01:08:43]
+[COM17] [2015-02-14|01:08:43] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-14|01:08:47]
+[COM22] [2015-02-14|01:08:47] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|01:14:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[COM20] [2015-02-14|01:14:12] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|01:14:12]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-14|01:14:13]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|01:14:14] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[DATE|TIME : 2015-02-14|01:14:15]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|01:14:17] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+[DATE|TIME : 2015-02-14|01:14:18]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|01:19:41] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM20] [2015-02-14|01:19:42] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|01:19:42]
+DEVICE STATE: READY
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM17] [2015-02-14|01:19:44] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|01:19:44]
+DEVICE STATE: READY
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|01:19:45]
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|01:19:48] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|01:19:49]
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|01:25:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|01:25:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|01:25:14] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|01:25:19] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+[DATE|TIME : 2015-02-14|01:30:02]
+PHONE NUMBER: NO_NUMBER
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+[DATE|TIME : 2015-02-14|01:30:04]
+PHONE NUMBER: 66589132
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
++CNUM:
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+We in business... There's COM ports here!
+[COM16] [2015-02-14|01:30:06] 
+Process started... Listening on COM16...
+[COM16] [2015-02-14|01:30:06] Setting up dongle for voice calls...
+[COM22] [2015-02-14|01:30:06] 
+Process started... Listening on COM22...
+[COM22] [2015-02-14|01:30:06] Setting up dongle for voice calls...
+Started up, found no delayed requests! All clear...
+[COM20] [2015-02-14|01:30:06] 
+Process started... Listening on COM20...
+[COM20] [2015-02-14|01:30:06] Setting up dongle for voice calls...
+[COM22] [2015-02-14|01:30:07] Initializing COM22 for voice calls...
+[COM20] [2015-02-14|01:30:07] Initializing COM20 for voice calls...
+[COM16] [2015-02-14|01:30:07] Initializing COM16 for voice calls...
+[COM17] [2015-02-14|01:30:07] 
+Process started... Listening on COM17...
+[COM17] [2015-02-14|01:30:07] Setting up dongle for voice calls...
+[COM17] [2015-02-14|01:30:08] Initializing COM17 for voice calls...
+[COM16] [2015-02-14|01:30:09] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-14|01:30:09] Waiting for a call from Godot... Nothing to be done...
+[COM20] [2015-02-14|01:30:09] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+APPLICATION: polly_browse
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+[COM17] [2015-02-14|01:30:11] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|01:35:38] Sending keep-alive message to server...
+[COM20] [2015-02-14|01:35:38] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+[DATE|TIME : 2015-02-14|01:35:39]
+RSSI: 13
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+[DATE|TIME : 2015-02-14|01:35:39]
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM16] [2015-02-14|01:35:39] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+DEVICE STATE: READY
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+[DATE|TIME : 2015-02-14|01:35:40]
+RSSI: 12
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|01:35:42] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+[DATE|TIME : 2015-02-14|01:35:42]
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|01:41:09] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
+[COM20] [2015-02-14|01:41:10] Sending keep-alive message to server...
+[COM16] [2015-02-14|01:41:10] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
+[DATE|TIME : 2015-02-14|01:41:10]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|01:41:11]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-14|01:41:11]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|01:41:14] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|01:41:15]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|01:46:39] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM20] [2015-02-14|01:46:40] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-14|01:46:40] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|01:46:44] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|01:52:10] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|01:52:10]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM20] [2015-02-14|01:52:11] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-14|01:52:11] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|01:52:11]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
+[DATE|TIME : 2015-02-14|01:52:11]
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|01:52:15] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|01:52:16]
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|01:57:40] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|01:57:41]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|01:57:42] Sending keep-alive message to server...
+[COM16] [2015-02-14|01:57:42] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|01:57:43]
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|01:57:43]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|01:57:46] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|01:57:47]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|02:03:10] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|02:03:12] Sending keep-alive message to server...
+[COM16] [2015-02-14|02:03:12] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|02:03:17] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[DATE|TIME : 2015-02-14|02:08:40]
+[COM22] [2015-02-14|02:08:40] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-14|02:08:43]
+[COM20] [2015-02-14|02:08:43] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|02:08:43]
+[COM16] [2015-02-14|02:08:43] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-14|02:08:48]
+[COM17] [2015-02-14|02:08:48] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|02:14:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+[DATE|TIME : 2015-02-14|02:14:12]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|02:14:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+[COM16] [2015-02-14|02:14:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
+[DATE|TIME : 2015-02-14|02:14:14]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|02:14:14]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|02:14:19] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
+[DATE|TIME : 2015-02-14|02:14:20]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|02:19:41] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|02:19:42]
+DEVICE STATE: READY
+[COM20] [2015-02-14|02:19:43] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+[COM16] [2015-02-14|02:19:43] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+RSSI: 12
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|02:19:44]
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|02:19:45]
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM17] [2015-02-14|02:19:50] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|02:19:51]
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|02:25:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|02:25:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM16] [2015-02-14|02:25:14] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|02:25:20] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
++CNU
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM21...
+[DATE|TIME : 2015-02-14|02:30:02]
+Couldn't connect to COM21 or port already in use!
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+[DATE|TIME : 2015-02-14|02:30:04]
+PHONE NUMBER: NO_NUMBER
+Examining port COM17...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+We in business... There's COM ports here!
+[COM16] [2015-02-14|02:30:06] 
+Process started... Listening on COM16...
+[COM16] [2015-02-14|02:30:06] Setting up dongle for voice calls...
+[COM17] [2015-02-14|02:30:06] 
+Process started... Listening on COM17...
+[COM20] [2015-02-14|02:30:06] 
+Process started... Listening on COM20...
+[COM20] [2015-02-14|02:30:06] Setting up dongle for voice calls...
+[COM17] [2015-02-14|02:30:06] Setting up dongle for voice calls...
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|02:30:06] 
+Process started... Listening on COM22...
+[COM22] [2015-02-14|02:30:07] Setting up dongle for voice calls...
+[COM16] [2015-02-14|02:30:07] Initializing COM16 for voice calls...
+[COM22] [2015-02-14|02:30:07] Initializing COM22 for voice calls...
+[COM20] [2015-02-14|02:30:07] Initializing COM20 for voice calls...
+[COM17] [2015-02-14|02:30:08] Initializing COM17 for voice calls...
+[COM16] [2015-02-14|02:30:09] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+[COM22] [2015-02-14|02:30:10] Waiting for a call from Godot... Nothing to be done...
+[COM20] [2015-02-14|02:30:10] Waiting for a call from Godot... Nothing to be done...
+[COM17] [2015-02-14|02:30:10] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|02:35:39] Sending keep-alive message to server...
+[COM16] [2015-02-14|02:35:39] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+[COM17] [2015-02-14|02:35:39] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|02:35:39]
+[DATE|TIME : 2015-02-14|02:35:39]
+RSSI: 12
+RSSI: 13
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+[DATE|TIME : 2015-02-14|02:35:40]
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|02:35:41] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+[DATE|TIME : 2015-02-14|02:35:41]
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|02:41:09] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[COM22] [2015-02-14|02:41:10] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+[DATE|TIME : 2015-02-14|02:41:10]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|02:41:11] Sending keep-alive message to server...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[DATE|TIME : 2015-02-14|02:41:11]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|02:41:13]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|02:41:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|02:41:14]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|02:46:39] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM22] [2015-02-14|02:46:40] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|02:46:42] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|02:46:44] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|02:52:09] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|02:52:09]
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|02:52:11] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|02:52:11]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|02:52:12] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|02:52:13]
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|02:52:15] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|02:52:15]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|02:57:39] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|02:57:40]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|02:57:41] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|02:57:42]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|02:57:43] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|02:57:44]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|02:57:45] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|02:57:46]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|03:03:09] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|03:03:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|03:03:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|03:03:15] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[DATE|TIME : 2015-02-14|03:08:39]
+[COM16] [2015-02-14|03:08:39] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-14|03:08:41]
+[COM22] [2015-02-14|03:08:41] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-14|03:08:43]
+[COM17] [2015-02-14|03:08:43] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-02-14|03:08:45]
+[COM20] [2015-02-14|03:08:45] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|03:14:10] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[DATE|TIME : 2015-02-14|03:14:11]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|03:14:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+[DATE|TIME : 2015-02-14|03:14:12]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|03:14:14] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[DATE|TIME : 2015-02-14|03:14:14]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|03:14:16] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+[DATE|TIME : 2015-02-14|03:14:17]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|03:19:40] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|03:19:41]
+DEVICE STATE: READY
+[COM22] [2015-02-14|03:19:41] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|03:19:43]
+DEVICE STATE: READY
+[COM17] [2015-02-14|03:19:44] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|03:19:45]
+DEVICE STATE: READY
+[COM20] [2015-02-14|03:19:46] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
+Started up, found no delayed requests! All clear...
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-02-14|03:19:48]
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM16] [2015-02-14|03:25:10] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|03:25:12] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|03:25:14] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM20] [2015-02-14|03:25:17] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM16:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM18:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM17:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM22...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM22 is valid!
+PHONE NUMBER: 66589132
+Examining port COM16...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM16 is valid!
+[DATE|TIME : 2015-02-14|03:30:02]
+PHONE NUMBER: NO_NUMBER
+Examining port COM20...
+AT+CNUM Response: AT+CNUM
++CNUM: "My sim 1","67104018",129
++CNUM: "My sim 2","66589132",129
+
+OK
+PORT COM20 is valid!
+PHONE NUMBER: 66589132
+Examining port COM1...
+Couldn't connect to COM1 or port already in use!
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM17...
+[DATE|TIME : 2015-02-14|03:30:05]
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM17 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM18...
+Couldn't connect to COM18 or port already in use!
+We in business... There's COM ports here!
+Started up, found no delayed requests! All clear...
+[COM22] [2015-02-14|03:30:06] 
+Process started... Listening on COM22...
+[COM22] [2015-02-14|03:30:06] Setting up dongle for voice calls...
+[COM20] [2015-02-14|03:30:06] 
+Process started... Listening on COM20...
+[COM20] [2015-02-14|03:30:06] Setting up dongle for voice calls...
+[COM17] [2015-02-14|03:30:06] 
+Process started... Listening on COM17...
+[COM17] [2015-02-14|03:30:06] Setting up dongle for voice calls...
+[COM17] [2015-02-14|03:30:07] Initializing COM17 for voice calls...
+[COM20] [2015-02-14|03:30:07] Initializing COM20 for voice calls...
+[COM22] [2015-02-14|03:30:07] Initializing COM22 for voice calls...
+[COM16] [2015-02-14|03:30:08] 
+Process started... Listening on COM16...
+[COM16] [2015-02-14|03:30:09] Setting up dongle for voice calls...
+[COM17] [2015-02-14|03:30:09] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-14|03:30:09] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+[COM20] [2015-02-14|03:30:09] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+[COM16] [2015-02-14|03:30:09] Initializing COM16 for voice calls...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+[COM16] [2015-02-14|03:30:11] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+Started up, found no delayed requests! All clear...
+[COM20] [2015-02-14|03:35:38] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+[DATE|TIME : 2015-02-14|03:35:38]
+RSSI: 16
+[COM17] [2015-02-14|03:35:38] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+[DATE|TIME : 2015-02-14|03:35:39]
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM22] [2015-02-14|03:35:39] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+[DATE|TIME : 2015-02-14|03:35:39]
+RSSI: 16
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-14|03:35:42] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+[DATE|TIME : 2015-02-14|03:35:43]
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM20] [2015-02-14|03:41:09] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
+[COM17] [2015-02-14|03:41:09] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|03:41:10]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|03:41:10]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM22] [2015-02-14|03:41:11] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|03:41:12]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-14|03:41:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-02-14|03:41:14]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM20] [2015-02-14|03:46:39] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|03:46:40] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[COM22] [2015-02-14|03:46:41] Sending keep-alive message to server...
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-14|03:46:44] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM20] [2015-02-14|03:51:47] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|03:51:47]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|03:51:48] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|03:51:49]
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
+[COM22] [2015-02-14|03:51:49] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|03:51:49]
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-14|03:51:53] Sending keep-alive message to server...
+[DATE|TIME : 2015-02-14|03:51:53]
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM20] [2015-02-14|03:56:51] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|03:56:52]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM17] [2015-02-14|03:56:53] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
+[COM22] [2015-02-14|03:56:53] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|03:56:54]
+RSSI: 16
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|03:56:55]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM16] [2015-02-14|03:56:58] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-02-14|03:56:59]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
