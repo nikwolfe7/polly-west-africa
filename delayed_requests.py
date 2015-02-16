@@ -9,13 +9,16 @@ test_url = "http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679
 
 def send_delayed_requests():
 	if not os.path.isfile(d.log_dir + d.pending_reqs):
+		echo("No pending requests file found... Creating placeholder...")
 		delayed_reqs = open(d.log_dir + d.pending_reqs,"w")
-		#delayed_reqs.write(test_url+"\n")
+		delayed_reqs.write(test_url+"\n")
 		delayed_reqs.close()
+		return True
 	
 	delayed_reqs = [l.strip() for l in open(d.log_dir + d.pending_reqs).readlines()]
 	if not delayed_reqs:
 		echo("Started up, found no delayed requests! All clear...")
+		return True
 		
 	else: echo("Attempting to send delayed requests...")
 		
@@ -35,7 +38,7 @@ def send_delayed_requests():
 				# call vector:
 				# [rssi,carrier,state]+[request_id,com,phone_num,phno,lang,destination]
 				echo("Delayed request successfully sent! Logging request...")
-				open(d.log_dir + d.pending_reqs_fulfilled, "a").write(req)
+				open(d.log_dir + d.pending_reqs_fulfilled, "a").write(req + "\n")
 				
 				# ------ HUGE HACK ----- #
 				request = {}
@@ -73,14 +76,16 @@ def send_delayed_requests():
 			
 	# all finished!
 	if requests_left:
-		echo("Cannot verify that request was successfully sent. Re-queueing the request...")
+		echo("Cannot verify that some requests were successfully sent. Re-queueing failed requests...")
 		for request_left in requests_left:
 			open(d.log_dir + d.pending_reqs,"a").write(request_left + "\n")
 			echo("Request is now back in " + d.log_dir + d.pending_reqs + "...")
+		return False
 			
 	else: # only if everything was successful... 
 		echo("All requests sent! Removing " + d.log_dir + d.pending_reqs)
 		os.remove(d.log_dir + d.pending_reqs)
+		return True
 				
 				
 # ====================================================== #	

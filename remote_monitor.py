@@ -4,68 +4,71 @@ import defines as d
 import http
 import socket
 import os
+from common import xprint
 try: import urllib.request as urllib2
 except ImportError: import urllib2
 from multiprocessing import Process
 
 def send_request(http_request):
-	#print("HTTP Request Generated: " + http_request)
+	#xprint("HTTP Request Generated: " + http_request)
 	try:
 		wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
-		wp = wp.read().decode('utf-8')
-		#print("HTTP Response:\n\n"+wp+"\n")
-		return "SUCCESS" in wp
-	
-	except ValueError as e:
-		print("Unknown URL type! But fuck it, right?\n" + str(e))
-		print("Here it is: " + http_request)
-		backup_failed_request(http_request)
-		return False
+		wp = wp.read().decode('utf-8').lower()
+		#xprint("HTTP Response:\n\n"+wp+"\n")
+		return d.REQUEST_SUCCESS.lower() in wp
 	
 	except http.client.BadStatusLine as e:
-		print("An Exception occurred!\n" + str(e))
-		print(traceback.format_exc())
-		print("Moving on... Tired of getting SMSs about this... ")
+		xprint("An Exception occurred!\n" + str(e))
+		xprint(traceback.format_exc())
+		xprint("Moving on... Tired of getting SMSs about this... ")
 		backup_failed_request(http_request)
 		return False
 	
 	except socket.timeout:
-		print("Socket timeout! Current timeout: " + socket.getdefaulttimeout())
+		xprint("Socket timeout! Current timeout: " + socket.getdefaulttimeout())
 		backup_failed_request(http_request)
 		return False
 	
 	except urllib2.URLError as e:
-		print("URL Error... Timeout?")
-		print(str(e))
+		xprint("URL Error... Timeout?\n" + str(e))
+		xprint(traceback.format_exc())
 		backup_failed_request(http_request)
 		return False
 
-	except (urllib2.UnknownHandler,urllib2.ValueError) as e:
-		print("Unknown URL type! But fuck it, right?\n" + str(e))
-		print("Here it is: " + http_request)
+	except urllib2.UnknownHandler as e:
+		xprint("Unknown URL type!\n" + str(e))
+		xprint(traceback.format_exc())
+		xprint("Here it is: " + http_request)
+		backup_failed_request(http_request)
+		return False
+
+	except ValueError as e:
+		xprint("Unknown URL type!\n" + str(e))
+		xprint(traceback.format_exc())
+		xprint("Here it is: " + http_request)
 		backup_failed_request(http_request)
 		return False
 		
 	except Exception as e:
-		print("An Exception occurred!\n" + str(e))
-		print(traceback.format_exc())
-		if str(e) is not '' and http_request.startswith("http://"): # hack!!
+		xprint("An Exception occurred!\n" + str(e))
+		xprint(traceback.format_exc())
+		if str(e) != '' and http_request.startswith("http://"): # hack!!
 			tropo_remote_sms(d.sms_alert_number, d.sms_alert_message+str(e))
-		print("Moving on...")
+		xprint("Moving on...")
 		backup_failed_request(http_request)
 		return False
 
 def backup_failed_request(http_request):
 	if http_request.startswith("http://"):
-		open(d.remote_logging_backup_queue,'a').write(http_request+"\n")
+		open(d.log_dir + d.remote_logging_backup_queue,'a').write(http_request+"\n")
 
 def retry_backup_queue():
-	if os.path.isfile(d.remote_logging_backup_queue): 
-		failed_logs = [x.strip() for x in open(d.remote_logging_backup_queue).readlines()]
-		open(d.remote_logging_backup_queue,'w')
+	if os.path.isfile(d.log_dir + d.remote_logging_backup_queue): 
+		failed_logs = [x.strip() for x in open(d.log_dir + d.remote_logging_backup_queue).readlines()]
+		open(d.log_dir + d.remote_logging_backup_queue,'w')
 		while failed_logs:
 			message = failed_logs.pop(0)
-			print(">>>> Retrying request: "+message)
+			xprint(">>>> Retrying request: "+message)
 			send_request(message)
 
 def get_encoding(message):
@@ -86,14 +89,14 @@ def clean_msg_for_url(msg):
 	return msg.replace(" ","%20").replace("+", "%2B")
 	
 def tropo_remote_sms(recipient, msg):
-	print("Sending SMS to Tropo...")
+	xprint("Sending SMS to Tropo...")
 	recipient = clean_msg_for_url(recipient.lstrip('0'))
 	msg = clean_msg_for_url(msg)
 	tropo_request = d.tropo_request.replace(d.tropo_recipient,recipient).replace(d.tropo_message,msg)
 	spin_register_process(str(tropo_request))
 	
 def update(update, retval=False):
-	#print("Sending update to remote monitoring system...")
+	#xprint("Sending update to remote monitoring system...")
 	update = get_encoding(update)
 	http_request = "http://" + d.ip_optiplex + "/" + d.app + d.monitor_script + update
 	if retval:

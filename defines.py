@@ -6,8 +6,10 @@ import socket
 log_dir = "."+os.sep+"logs"+os.sep
 logfile = "logfile"
 logfile_full = "logfile-full"
+exception_log = "exception_log"
 pending_reqs = "pending_requests.txt"
 pending_reqs_fulfilled = "pending_requests_fulfilled.txt"
+remote_logging_backup_queue = "remote_log_backup_queue.txt"
 reminder_list = "reminder_list.txt"
 at_log = "AT-log"
 sms_confirm = False
@@ -20,7 +22,6 @@ tropo_recipient = "[RECIPIENT]"
 tropo_message = "[MESSAGE]"
 web_request_timeout = None
 socket.setdefaulttimeout(web_request_timeout)
-remote_logging_backup_queue = log_dir + "remote_log_backup_queue.txt"
 
 # ====================================================== #	
 # AT constants
@@ -83,6 +84,7 @@ POLLY_SPREAD = "polly_spread"
 POLLY_BROWSE = "polly_browse"
 REQUEST_PENDING = "REQUEST_PENDING"
 REGISTER_FAILED = "REGISTER_FAILED"
+REQUEST_SUCCESS = "SUCCESS"
 
 # Remote monitor update
 ip_optiplex = "128.2.211.183"

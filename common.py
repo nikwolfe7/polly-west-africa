@@ -3,7 +3,6 @@ import serial
 import time
 import os
 import defines
-import remote_monitor
 
 # ====================================================== #
 # Useful stuff...
@@ -56,6 +55,7 @@ def time_stamp():
 # ====================================================== #	
 # simple logging... the default
 def echo(msg, pre="LOG", retval=False):
+	import remote_monitor
 	time_stamp()
 	remote_monitor.update(pre + defines.file_delim + msg, retval)
 	update_log(polly_log_full,msg)
@@ -65,6 +65,7 @@ def echo(msg, pre="LOG", retval=False):
 # logging for events in CSV format
 # msg is expected to be an array...
 def csvecho(msg, pre="CSV", retval=True):
+	import remote_monitor
 	stamp = [nice_date_time()]
 	msg = stamp + msg
 	msg =  defines.file_delim.join(msg)
@@ -94,3 +95,9 @@ def is_number(var):
 	except (TypeError,ValueError):
 		pass
 	return False
+
+# ====================================================== #	
+def xprint(msg): 
+	exfile = new_log_file(defines.exception_log)
+	update_log(exfile, prefix("EXCEPTION") + msg)
+	print(msg)
