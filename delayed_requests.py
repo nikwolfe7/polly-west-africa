@@ -11,7 +11,7 @@ def send_delayed_requests():
 	if not os.path.isfile(d.log_dir + d.pending_reqs):
 		echo("No pending requests file found... Creating placeholder...")
 		delayed_reqs = open(d.log_dir + d.pending_reqs,"w")
-		delayed_reqs.write(test_url+"\n")
+		#delayed_reqs.write(test_url+"\n")
 		delayed_reqs.close()
 		return True
 	
