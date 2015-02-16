@@ -1,6 +1,0 @@
-http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
-http://api.tropo.com/1.0/sessions?action=create&token=1950c84caa3aa1489428e3946049fdfa96c92736612b6abb738b004d0c8f12c253ae0bdec48ab3828dd1d89d&msg=Polly%20Dongle%20SOS!%20An%20Exception%20occurred!%20Database%20INSERT%20failed!&calltype=GuinDongleStatusSMS&ph=0019543679247&callerid=%2B14122677909
-http://api.tropo.com/1.0/sessions?action=create&token=1950c84caa3aa1489428e3946049fdfa96c92736612b6abb738b004d0c8f12c253ae0bdec48ab3828dd1d89d&msg=Polly%20Dongle%20SOS!%20An%20Exception%20occurred!%20Database%20INSERT%20failed!&calltype=GuinDongleStatusSMS&ph=0019543679247&callerid=%2B14122677909
-0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
-0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
-SDFASDFSDAFSD=

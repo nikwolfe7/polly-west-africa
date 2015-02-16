@@ -1,27 +1,67 @@
-STARTED:[2015-01-29|03:00:56]
-Sending update to remote monitoring system...
-HTTP Request Generated: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=Hey%20Peter%20Frampton!%20Do%20you%20like%20toast%20TOO?
+STARTED:[2015-02-16|00:04:47]
+No pending requests file found... Creating placeholder...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501005604963FF
 HTTP Response:
 
-<br />
-<b>Notice</b>:  Undefined index: HELLO in <b>E:\xampp\htdocs\wa\RemoteMonitor\dongleMontiorUpdate.php</b> on line <b>2</b><br />
-Here's what you said: <br/>Here is our answer.<br/>
-Yes, I also like toast. It is warm and crispy.
-Sending update to remote monitoring system...
-HTTP Request Generated: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=Hey%20Peter%20Frampton!%20Do%20you%20like%20toast%20TOO?
-HTTP Response:
-
-Here's what you said: Hey Peter Frampton! Do you like toast TOO?<br/>Here is our answer.<br/>
-Yes, I also like toast. It is warm and crispy.
-Sending update to remote monitoring system...
-HTTP Request Generated: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=+1927593134,34,223.56,CellComGN,235kk
-HTTP Response:
-
-Here's what you said:  1927593134,34,223.56,CellComGN,235kk<br/>Here is our answer.<br/>
-Yes, I also like toast. It is warm and crispy.
+Your IP is 41.79.236.19
+Request Successful. Assigned request ID = 693
+ID: 693
+Delayed request successfully sent! Logging request...
+All requests sent! Removing .\logs\pending_requests.txt
+No pending requests file found... Creating placeholder...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
+Started up, found no delayed requests! All clear...
 Searching for COM ports...
 Status for device COM1:
 -----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM20:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM21:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM22:
+------------------------
     Baud:            115200
     Parity:          None
     Data Bits:       8
@@ -80,73 +120,24 @@ Status for device COM17:
     RTS circuit:     ON
 
 
-Status for device COM13:
-------------------------
-    Baud:            115200
-    Parity:          None
-    Data Bits:       8
-    Stop Bits:       1
-    Timeout:         OFF
-    XON/XOFF:        OFF
-    CTS handshaking: OFF
-    DSR handshaking: OFF
-    DSR sensitivity: OFF
-    DTR circuit:     ON
-    RTS circuit:     ON
-
-
-Status for device COM15:
-------------------------
-    Baud:            115200
-    Parity:          None
-    Data Bits:       8
-    Stop Bits:       1
-    Timeout:         OFF
-    XON/XOFF:        OFF
-    CTS handshaking: OFF
-    DSR handshaking: OFF
-    DSR sensitivity: OFF
-    DTR circuit:     ON
-    RTS circuit:     ON
-
-
-Status for device COM14:
-------------------------
-    Baud:            115200
-    Parity:          None
-    Data Bits:       8
-    Stop Bits:       1
-    Timeout:         OFF
-    XON/XOFF:        OFF
-    CTS handshaking: OFF
-    DSR handshaking: OFF
-    DSR sensitivity: OFF
-    DTR circuit:     ON
-    RTS circuit:     ON
-
-
 Status for device CON:
 ----------------------
-    Lines:          3000
+    Lines:          300
     Columns:        120
     Keyboard rate:  31
     Keyboard delay: 1
     Code page:      437
-Examining port COM15...
-Couldn't connect to COM15 or port already in use!
-Examining port COM14...
+Examining port COM21...
+Couldn't connect to COM21 or port already in use!
+Examining port COM20...
 AT+CNUM Response: AT+CNUM
 +CNUM: "My sim 1","67104018",129
 +CNUM: "My sim 2","66589132",129
-
-
-OK
-PORT COM14 is valid!
++CNUM:
+PORT COM20 is valid!
 PHONE NUMBER: 66589132
-Examining port COM18...
-[DATE|TIME : 2015-01-29|08:50:26]
-Couldn't connect to COM18 or port already in use!
 Examining port COM1...
+[DATE|TIME : 2015-02-16|00:30:02]
 Couldn't connect to COM1 or port already in use!
 Examining port COM16...
 AT+CNUM Response: AT+CNUM
@@ -157,35 +148,61 @@ Examining port COM17...
 AT+CNUM Response: AT+CNUM
 OK
 PORT COM17 is valid!
-[DATE|TIME : 2015-01-29|08:50:27]
 PHONE NUMBER: NO_NUMBER
-Examining port COM13...
+Examining port COM18...
+[DATE|TIME : 2015-02-16|00:30:04]
+Couldn't connect to COM18 or port already in use!
+Examining port COM22...
 AT+CNUM Response: AT+CNUM
 +CNUM: "My sim 1","67104018",129
 +CNUM: "My sim 2","66589132",129
 
-
 OK
-PORT COM13 is valid!
+PORT COM22 is valid!
 PHONE NUMBER: 66589132
 We in business... There's COM ports here!
-[COM17] [2015-01-29|08:50:28] 
-Process started... Listening on COM17...
-[COM17] [2015-01-29|08:50:28] Setting up dongle for voice calls...
-[COM13] [2015-01-29|08:50:28] 
-Process started... Listening on COM13...
-[COM13] [2015-01-29|08:50:28] Setting up dongle for voice calls...
-[COM16] [2015-01-29|08:50:28] 
+[COM20] [2015-02-16|00:30:07] 
+Process started... Listening on COM20...
+[COM20] [2015-02-16|00:30:07] Setting up dongle for voice calls...
+[COM16] [2015-02-16|00:30:07] 
 Process started... Listening on COM16...
-[COM14] [2015-01-29|08:50:28] 
-Process started... Listening on COM14...
-[COM14] [2015-01-29|08:50:28] Setting up dongle for voice calls...
-[COM16] [2015-01-29|08:50:28] Setting up dongle for voice calls...
-[COM17] [2015-01-29|08:50:29] Initializing COM17 for voice calls...
-[COM13] [2015-01-29|08:50:29] Initializing COM13 for voice calls...
-[COM14] [2015-01-29|08:50:29] Initializing COM14 for voice calls...
-[COM16] [2015-01-29|08:50:29] Initializing COM16 for voice calls...
-[COM17] [2015-01-29|08:50:30] Waiting for a call from Godot... Nothing to be done...
-[COM13] [2015-01-29|08:50:30] Waiting for a call from Godot... Nothing to be done...
-[COM14] [2015-01-29|08:50:30] Waiting for a call from Godot... Nothing to be done...
-[COM16] [2015-01-29|08:50:30] Waiting for a call from Godot... Nothing to be done...
+[COM16] [2015-02-16|00:30:07] Setting up dongle for voice calls...
+Started up, found no delayed requests! All clear...
+[COM17] [2015-02-16|00:30:07] 
+Process started... Listening on COM17...
+[COM17] [2015-02-16|00:30:07] Setting up dongle for voice calls...
+[COM20] [2015-02-16|00:30:08] Initializing COM20 for voice calls...
+[COM16] [2015-02-16|00:30:08] Initializing COM16 for voice calls...
+[COM17] [2015-02-16|00:30:08] Initializing COM17 for voice calls...
+[COM22] [2015-02-16|00:30:08] 
+Process started... Listening on COM22...
+[COM22] [2015-02-16|00:30:08] Setting up dongle for voice calls...
+[COM16] [2015-02-16|00:30:10] Waiting for a call from Godot... Nothing to be done...
+[COM20] [2015-02-16|00:30:11] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
+[COM17] [2015-02-16|00:30:12] Waiting for a call from Godot... Nothing to be done...
+[COM22] [2015-02-16|00:30:12] Initializing COM22 for voice calls...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501050918961FF
+
+OK
+ICCID: 892246501050918961FF
+APPLICATION: polly_game
+[COM22] [2015-02-16|00:30:14] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501005604963FF
+
+OK
+ICCID: 892246501005604963FF
+APPLICATION: polly_browse
