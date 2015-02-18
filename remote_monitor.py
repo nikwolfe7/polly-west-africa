@@ -25,7 +25,7 @@ def send_request(http_request):
 		return False
 	
 	except socket.timeout:
-		xprint("Socket timeout! Current timeout: " + socket.getdefaulttimeout())
+		xprint("Socket timeout! Current timeout: " + str(socket.getdefaulttimeout()))
 		backup_failed_request(http_request)
 		return False
 	
