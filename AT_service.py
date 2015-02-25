@@ -137,6 +137,8 @@ def get_rssi(AT):
 	if at[1]: 
 		RSSI = at[0][-1].split(',')[0]
 		echo("RSSI: "+RSSI)
+		if len(RSSI) > 2: # hack if something weird happens...
+			get_rssi(AT)
 		return (RSSI,True)
 	else: return ("NO_RSSI",False)
 	
