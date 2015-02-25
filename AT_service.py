@@ -143,7 +143,21 @@ def get_rssi(AT):
 # ====================================================== #
 # Extract the Carrier name
 def get_carrier(AT):
+	carrier = get_carrier_send(AT, mode=1);
+	if carrier[0] == "":
+		carrier = get_carrier_send(AT, mode=2);
+		if carrier[0] == "":
+			carrier = get_carrier_send(AT, mode=3);
+			if carrier[0] == "": # HACK!!!!!
+				carrier = ("MTN?",True)
+	return carrier
+
+def get_carrier_send(AT, mode=1):
 	AT.send_at(d.CARRIER_TEXT_DISPLAY, log=True)
+	if mode == 2:
+		AT.send_at(d.CARRIER_TEXT_DISPLAY_2, log=True)
+	elif mode == 3:
+		AT.send_at(d.CARRIER_TEXT_DISPLAY_3, log=True)
 	resp = AT.send_at(d.GET_CARRIER_NAME)[0]
 	at = check_matches_expected_response(resp, d.CARRIER_RETURN, '"')
 	if at[1]:

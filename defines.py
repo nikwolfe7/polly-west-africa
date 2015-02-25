@@ -53,6 +53,8 @@ CALL_END_SIGNAL = "^CEND:"
 GET_SIGNAL_STRENGTH = "AT+CSQ"
 RESP_GET_SIGNAL_STRENGTH = "+CSQ"
 CARRIER_TEXT_DISPLAY = "AT+COPS=3,0"
+CARRIER_TEXT_DISPLAY_2 = "AT+COPS=3,1"
+CARRIER_TEXT_DISPLAY_3 = "AT+COPS=3,2"
 GET_CARRIER_NAME = "AT+COPS?"
 CARRIER_RETURN = "+COPS"
 GET_DEVICE_STATE = "AT+CPAS"
@@ -98,9 +100,10 @@ guinea_cc = "224"
 usa_cc = "001"
 eng = "AmerEnglish"
 fr = "GuinFrench"
+carrier_MTN = "MTN" # because they don't respond to COPS
 
 # SIM card constants
-POLLY_GAME_ICCID = "892246501050918961FF"
+POLLY_GAME_ICCID = "8922404111122610474F"
 POLLY_BROWSE_ICCID = "892246501005604963FF"
 
 # ====================================================== #	

@@ -6,8 +6,9 @@ def is_phone_number(phno):
 
 def process_for_guinea(phno):
 	if is_phone_number(phno):
-		phno = phno.strip("+")
-		if phno.startswith(defines.usa_cc):
+		phno = phno.replace("+","")
+		if phno.startswith(defines.usa_cc) or phno.startswith("1"):
+			if phno.startswith("1"): phno = defines.usa_cc + phno.lstrip("1")
 			echo("Looks like a U.S. number... Returning " + phno)
 			return (phno, defines.eng)
 		else:
