@@ -25,7 +25,7 @@ socket.setdefaulttimeout(web_request_timeout)
 
 # ====================================================== #	
 # AT constants
-wait_time = 0.25 # slower than this seems to screw things up
+wait_time = 0.2 # slower than this seems to screw things up
 sms_wait_time = 5
 refresh_rate = 0.1
 
