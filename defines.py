@@ -103,7 +103,7 @@ fr = "GuinFrench"
 carrier_MTN = "MTN" # because they don't respond to COPS
 
 # SIM card constants
-POLLY_GAME_ICCID = "8922404111122610474F"
+POLLY_GAME_ICCID = "892246501056013007FF"
 POLLY_BROWSE_ICCID = "892246501005604963FF"
 
 # ====================================================== #	
