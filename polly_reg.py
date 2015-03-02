@@ -1,5 +1,6 @@
 import defines as d
-from common import echo,web_request_timestamp
+import sys
+from common import echo,web_request_timestamp,backup_failed_request,xprint
 import traceback
 try: import urllib.request as urllib2
 except ImportError: import urllib2
@@ -18,6 +19,11 @@ def send_request(http_request, return_request=False):
 		echo("HTTP Response:\n\n"+wp+"\n")
 		echo("ID: "+request_id)
 		return request_id
+
+	except urllib2.URLError:
+		print("Network unreachable!")
+		backup_failed_request(http_request)
+		return d.REGISTER_FAILED
 	
 	except Exception as e:
 		echo("An Exception occurred!\n" + str(e))
@@ -26,11 +32,6 @@ def send_request(http_request, return_request=False):
 		echo("Moving on...")
 		return d.REGISTER_FAILED
 	
-def backup_failed_request(http_request):
-	if http_request.startswith("http://"):
-		open(d.log_dir + d.pending_reqs,"a").write(http_request + "\n")
-		echo("Successfully backed up failed request: " + http_request)
-
 def polly_request(phno, syslang, msglang, channel, iccid, app_ip, return_request=False):
 	echo("Registering phno="+phno+" and iccid="+iccid+" with Polly...")
 	ip = "http://" + app_ip
