@@ -11218,3 +11218,1413 @@ DEVICE STATE: READY
 OK
 DEVICE STATE: READY
 Started up, found no delayed requests! All clear...
+[COM26] [2015-03-01|22:51:54] Sending keep-alive message to server...
+[DATE|TIME : 2015-03-01|22:51:54]
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
+[COM24] [2015-03-01|22:51:54] Sending keep-alive message to server...
+[DATE|TIME : 2015-03-01|22:51:54]
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM26] [2015-03-01|22:56:56] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
+[COM24] [2015-03-01|22:56:56] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-03-01|22:56:58]
+[DATE|TIME : 2015-03-01|22:56:58]
+CARRIER: Cellcom GN
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM24] [2015-03-01|23:01:59] Sending keep-alive message to server...
+[COM26] [2015-03-01|23:01:59] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[DATE|TIME : 2015-03-01|23:07:01]
+[COM24] [2015-03-01|23:07:01] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[DATE|TIME : 2015-03-01|23:07:01]
+[COM26] [2015-03-01|23:07:01] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM24] [2015-03-01|23:12:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[COM26] [2015-03-01|23:12:13] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+[DATE|TIME : 2015-03-01|23:12:14]
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-03-01|23:12:14]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM26] [2015-03-01|23:12:19] Hanging up call from 0019543679247...
+[COM26] [2015-03-01|23:12:19] Trying: ATH
+[DATE|TIME : 2015-03-01|23:12:20]
+[COM26] [2015-03-01|23:12:20] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM26] [2015-03-01|23:12:21] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501056013007FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501056013007FF&timeofreq=2015-03-01%2023%3A12%3A21
+An Exception occurred!
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\polly_reg.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout).read().decode('utf-8').replace("<br>","\n")
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Moving on...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+[DATE|TIME : 2015-03-01|23:12:22]
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+Exception occurred! Call interrupted!
+[COM26] [2015-03-01|23:12:24] Logging diagnostic vector...
+[COM26] [2015-03-01|23:12:27] An Exception occurred!
+Database INSERT failed!
+[COM26] [2015-03-01|23:12:27] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\get_call.py", line 87, in listen_on_com_port
+    csvecho(call_vector)
+  File "C:\Users\PD\Documents\polly\pythonDongle\common.py", line 74, in csvecho
+    raise Exception("Database INSERT failed!")
+Exception: Database INSERT failed!
+0019543679247 Polly Dongle SOS! An Exception occurred!
+[COM26] [2015-03-01|23:12:28] Moving on...
+[DATE|TIME : 2015-03-01|23:12:30]
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM26] [2015-03-01|23:12:30] Hanging up call from 0019543679247...
+[COM26] [2015-03-01|23:12:30] Trying: ATH
+[COM26] [2015-03-01|23:12:30] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM26] [2015-03-01|23:12:32] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+[DATE|TIME : 2015-03-01|23:12:32]
+Registering phno=0019543679247 and iccid=892246501056013007FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501056013007FF&timeofreq=2015-03-01%2023%3A12%3A32
+An Exception occurred!
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\polly_reg.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout).read().decode('utf-8').replace("<br>","\n")
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Moving on...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-03-01|23:12:33]
+DEVICE STATE: READY
+[COM26] [2015-03-01|23:12:34] Logging diagnostic vector...
+[COM26] [2015-03-01|23:12:36] An Exception occurred!
+Database INSERT failed!
+[COM26] [2015-03-01|23:12:36] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\get_call.py", line 87, in listen_on_com_port
+    csvecho(call_vector)
+  File "C:\Users\PD\Documents\polly\pythonDongle\common.py", line 74, in csvecho
+    raise Exception("Database INSERT failed!")
+Exception: Database INSERT failed!
+0019543679247 Polly Dongle SOS! An Exception occurred!
+[COM26] [2015-03-01|23:12:37] Moving on...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[DATE|TIME : 2015-03-01|23:12:38]
+[COM26] [2015-03-01|23:12:38] Hanging up call from 0019543679247...
+[COM26] [2015-03-01|23:12:38] Trying: ATH
+[COM26] [2015-03-01|23:12:38] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM26] [2015-03-01|23:12:39] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501056013007FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501056013007FF&timeofreq=2015-03-01%2023%3A12%3A40
+An Exception occurred!
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\polly_reg.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout).read().decode('utf-8').replace("<br>","\n")
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[DATE|TIME : 2015-03-01|23:12:40]
+Moving on...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 3
+
+OK
+DEVICE STATE: RINGING
+[COM26] [2015-03-01|23:12:42] Logging diagnostic vector...
+[COM26] [2015-03-01|23:12:44] An Exception occurred!
+Database INSERT failed!
+[COM26] [2015-03-01|23:12:44] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\get_call.py", line 87, in listen_on_com_port
+    csvecho(call_vector)
+  File "C:\Users\PD\Documents\polly\pythonDongle\common.py", line 74, in csvecho
+    raise Exception("Database INSERT failed!")
+Exception: Database INSERT failed!
+[DATE|TIME : 2015-03-01|23:12:44]
+0019543679247 Polly Dongle SOS! An Exception occurred!
+[COM26] [2015-03-01|23:12:45] Moving on...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM26] [2015-03-01|23:12:48] Hanging up call from 0019543679247...
+[COM26] [2015-03-01|23:12:48] Trying: ATH
+[COM26] [2015-03-01|23:12:48] Response: ATH
+[COM26] [2015-03-01|23:12:49] Trying: AT+CHUP
+[DATE|TIME : 2015-03-01|23:12:49]
+[COM26] [2015-03-01|23:12:49] Response: AT+CHUP
+OK
+[COM26] [2015-03-01|23:12:51] Trying: ATH0
+[COM26] [2015-03-01|23:12:51] Response: ATH0
+OK
+[COM26] [2015-03-01|23:12:52] Trying: AT+CHCCS
+[COM26] [2015-03-01|23:12:53] Response: AT+CHCCS
+COMMAND NOT SUPPORT
+[COM26] [2015-03-01|23:12:54] Trying: AT+CHLD
+[COM26] [2015-03-01|23:12:54] Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+AT+CHLD
++CME ERROR: 50
+[COM26] [2015-03-01|23:12:55] 
+Could not terminate call using any known AT commands...
+Google Voice and Skype are known to have this problem. 
+Is the caller using a VOIP service?
+
+Attempting to restart connection...
+[COM26] [2015-03-01|23:12:56] Hang up unsuccessful! Trying to register caller anyway...
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+[DATE|TIME : 2015-03-01|23:12:57]
+Registering phno=0019543679247 and iccid=892246501056013007FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501056013007FF&timeofreq=2015-03-01%2023%3A12%3A57
+An Exception occurred!
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\polly_reg.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout).read().decode('utf-8').replace("<br>","\n")
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Moving on...
++CSQ Response: 
+^CEND:1,0,0,16
+AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-03-01|23:12:59]
+DEVICE STATE: READY
+[COM26] [2015-03-01|23:12:59] Logging diagnostic vector...
+[COM26] [2015-03-01|23:13:04] An Exception occurred!
+Database INSERT failed!
+[COM26] [2015-03-01|23:13:04] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\get_call.py", line 87, in listen_on_com_port
+    csvecho(call_vector)
+  File "C:\Users\PD\Documents\polly\pythonDongle\common.py", line 74, in csvecho
+    raise Exception("Database INSERT failed!")
+Exception: Database INSERT failed!
+0019543679247 Polly Dongle SOS! An Exception occurred!
+[COM26] [2015-03-01|23:13:06] Moving on...
+Started up, found no delayed requests! All clear...
+[COM24] [2015-03-01|23:17:49] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-03-01|23:17:50]
+DEVICE STATE: READY
+[COM26] [2015-03-01|23:18:26] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-03-01|23:18:27]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM24] [2015-03-01|23:23:19] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM26] [2015-03-01|23:23:57] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-03-01|23:24:00]
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[COM26] [2015-03-01|23:24:01] Hanging up call from 0019543679247...
+[COM26] [2015-03-01|23:24:01] Trying: ATH
+[COM26] [2015-03-01|23:24:01] Response: ATH
+^CEND:1,0,0,17
+
+OK
+Call terminated!
+[COM26] [2015-03-01|23:24:02] Hang up successful!
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+[DATE|TIME : 2015-03-01|23:24:03]
+Registering phno=0019543679247 and iccid=892246501056013007FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501056013007FF&timeofreq=2015-03-01%2023%3A24%3A03
+An Exception occurred!
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\polly_reg.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout).read().decode('utf-8').replace("<br>","\n")
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Moving on...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-03-01|23:24:04]
+DEVICE STATE: READY
+[COM26] [2015-03-01|23:24:04] Logging diagnostic vector...
+[COM26] [2015-03-01|23:24:07] An Exception occurred!
+Database INSERT failed!
+[COM26] [2015-03-01|23:24:07] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\get_call.py", line 87, in listen_on_com_port
+    csvecho(call_vector)
+  File "C:\Users\PD\Documents\polly\pythonDongle\common.py", line 74, in csvecho
+    raise Exception("Database INSERT failed!")
+Exception: Database INSERT failed!
+0019543679247 Polly Dongle SOS! An Exception occurred!
+[COM26] [2015-03-01|23:24:08] Moving on...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Incoming Phone Number is : 0019543679247
+Looks like a U.S. number... Returning 0019543679247
+[DATE|TIME : 2015-03-01|23:24:09]
+[COM26] [2015-03-01|23:24:09] Hanging up call from 0019543679247...
+[COM26] [2015-03-01|23:24:09] Trying: ATH
+[COM26] [2015-03-01|23:24:09] Response: ATH
+[COM26] [2015-03-01|23:24:10] Trying: AT+CHUP
+[COM26] [2015-03-01|23:24:11] Response: AT+CHUP
+OK
+[COM26] [2015-03-01|23:24:12] Trying: ATH0
+[COM26] [2015-03-01|23:24:12] Response: ATH0
+OK
+[COM26] [2015-03-01|23:24:14] Trying: AT+CHCCS
+[COM26] [2015-03-01|23:24:14] Response: 
++CRING: VOICE
+
++CLIP: "0019543679247",1,"",,"",0
+AT+CHCCS
+COMMAND NOT SUPPORT
+[COM26] [2015-03-01|23:24:15] Trying: AT+CHLD
+[DATE|TIME : 2015-03-01|23:24:15]
+[COM26] [2015-03-01|23:24:15] Response: AT+CHLD
++CME ERROR: 50
+[COM26] [2015-03-01|23:24:17] 
+Could not terminate call using any known AT commands...
+Google Voice and Skype are known to have this problem. 
+Is the caller using a VOIP service?
+
+Attempting to restart connection...
+[COM26] [2015-03-01|23:24:18] Hang up unsuccessful! Trying to register caller anyway...
+Register Parameters:
+
+System Language:	AmerEnglish
+Message Language:	AmerEnglish
+Channel:		GuinDongle
+Registering phno=0019543679247 and iccid=892246501056013007FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=GuinDongle&iccid=892246501056013007FF&timeofreq=2015-03-01%2023%3A24%3A18
+An Exception occurred!
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\polly_reg.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout).read().decode('utf-8').replace("<br>","\n")
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+Moving on...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+[DATE|TIME : 2015-03-01|23:24:19]
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+
+^CEND:1,0,0,31
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM26] [2015-03-01|23:24:20] Logging diagnostic vector...
+[COM26] [2015-03-01|23:24:22] An Exception occurred!
+Database INSERT failed!
+[COM26] [2015-03-01|23:24:22] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\get_call.py", line 87, in listen_on_com_port
+    csvecho(call_vector)
+  File "C:\Users\PD\Documents\polly\pythonDongle\common.py", line 74, in csvecho
+    raise Exception("Database INSERT failed!")
+Exception: Database INSERT failed!
+0019543679247 Polly Dongle SOS! An Exception occurred!
+[COM26] [2015-03-01|23:24:24] Moving on...
+[DATE|TIME : 2015-03-01|23:24:40]
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM26] [2015-03-01|23:24:41] Hanging up call from SKYPE|BLANK...
+[COM26] [2015-03-01|23:24:41] Trying: ATH
+[COM26] [2015-03-01|23:24:41] Response: ATH
+^CEND:1,0,1,17
+
+OK
+Call terminated!
+[COM26] [2015-03-01|23:24:43] Hang up successful!
+[COM26] [2015-03-01|23:24:43] Will not register this call due to blank number...
+[DATE|TIME : 2015-03-01|23:24:43]
++CSQ Response: AT+CSQ
++CSQ: 13,99
+
+OK
+RSSI: 13
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM26] [2015-03-01|23:24:44] Logging diagnostic vector...
+[COM26] [2015-03-01|23:24:46] An Exception occurred!
+Database INSERT failed!
+[COM26] [2015-03-01|23:24:46] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\get_call.py", line 87, in listen_on_com_port
+    csvecho(call_vector)
+  File "C:\Users\PD\Documents\polly\pythonDongle\common.py", line 74, in csvecho
+    raise Exception("Database INSERT failed!")
+Exception: Database INSERT failed!
+0019543679247 Polly Dongle SOS! An Exception occurred!
+Started up, found no delayed requests! All clear...
+[DATE|TIME : 2015-03-01|23:24:47]
+[COM26] [2015-03-01|23:24:47] Moving on...
++CRING Response: 
++CRING: VOICE
+
++CLIP: "",,"",,"",1
+=========================
+Oh Boy! An Incoming Call!
+=========================
+Looks like a Skype call. Number is blank.
+Could not process number.
+[COM26] [2015-03-01|23:25:05] Hanging up call from SKYPE|BLANK...
+[COM26] [2015-03-01|23:25:05] Trying: ATH
+[COM26] [2015-03-01|23:25:05] Response: ATH
+^CEND:1,0,1,17
+Call terminated!
+[COM26] [2015-03-01|23:25:07] Hang up successful!
+[DATE|TIME : 2015-03-01|23:25:07]
+[COM26] [2015-03-01|23:25:07] Will not register this call due to blank number...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM26] [2015-03-01|23:25:09] Logging diagnostic vector...
+[COM26] [2015-03-01|23:25:13] An Exception occurred!
+Database INSERT failed!
+[COM26] [2015-03-01|23:25:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\get_call.py", line 87, in listen_on_com_port
+    csvecho(call_vector)
+  File "C:\Users\PD\Documents\polly\pythonDongle\common.py", line 74, in csvecho
+    raise Exception("Database INSERT failed!")
+Exception: Database INSERT failed!
+[DATE|TIME : 2015-03-01|23:25:13]
+0019543679247 Polly Dongle SOS! An Exception occurred!
+[COM26] [2015-03-01|23:25:14] Moving on...
+[COM24] [2015-03-01|23:28:54] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 14,99
+
+OK
+[DATE|TIME : 2015-03-01|23:28:55]
+RSSI: 14
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+Searching for COM ports...
+Status for device COM1:
+-----------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM24:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM25:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device COM26:
+------------------------
+    Baud:            115200
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+Status for device CON:
+----------------------
+    Lines:          300
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+Examining port COM25...
+Couldn't connect to COM25 or port already in use!
+Examining port COM24...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM24 is valid!
+PHONE NUMBER: NO_NUMBER
+Examining port COM1...
+[DATE|TIME : 2015-03-01|23:30:01]
+Couldn't connect to COM1 or port already in use!
+Examining port COM26...
+AT+CNUM Response: AT+CNUM
+OK
+PORT COM26 is valid!
+PHONE NUMBER: NO_NUMBER
+We in business... There's COM ports here!
+[COM26] [2015-03-01|23:30:03] 
+Process started... Listening on COM26...
+[COM26] [2015-03-01|23:30:03] Setting up dongle for voice calls...
+Started up, found no delayed requests! All clear...
+[COM26] [2015-03-01|23:30:04] Initializing COM26 for voice calls...
+[COM24] [2015-03-01|23:30:05] 
+Process started... Listening on COM24...
+[COM24] [2015-03-01|23:30:05] Setting up dongle for voice calls...
+[COM26] [2015-03-01|23:30:05] Waiting for a call from Godot... Nothing to be done...
+[COM24] [2015-03-01|23:30:05] Initializing COM24 for voice calls...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501056013007FF
+
+OK
+ICCID: 892246501056013007FF
+APPLICATION: polly_game
+[COM24] [2015-03-01|23:30:07] Waiting for a call from Godot... Nothing to be done...
+^ICCID Response: AT^ICCID?
+^ICCID: 892246501056013007FF
+
+OK
+ICCID: 892246501056013007FF
+APPLICATION: polly_game
+Started up, found no delayed requests! All clear...
+[COM26] [2015-03-01|23:35:34] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+[DATE|TIME : 2015-03-01|23:35:35]
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM24] [2015-03-01|23:35:36] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+[DATE|TIME : 2015-03-01|23:35:36]
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM26] [2015-03-01|23:41:04] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-03-01|23:41:05]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM24] [2015-03-01|23:41:06] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
+[DATE|TIME : 2015-03-01|23:41:07]
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM26] [2015-03-01|23:46:34] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM24] [2015-03-01|23:46:36] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM26] [2015-03-01|23:52:03] Sending keep-alive message to server...
+[DATE|TIME : 2015-03-01|23:52:04]
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM24] [2015-03-01|23:52:06] Sending keep-alive message to server...
+[DATE|TIME : 2015-03-01|23:52:06]
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM26] [2015-03-01|23:57:33] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-03-01|23:57:33]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM24] [2015-03-01|23:57:35] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+[DATE|TIME : 2015-03-01|23:57:36]
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+Started up, found no delayed requests! All clear...
+[COM26] [2015-03-02|00:03:02] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM24] [2015-03-02|00:03:05] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-03-02|00:08:32]
+[COM26] [2015-03-02|00:08:32] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[DATE|TIME : 2015-03-02|00:08:35]
+[COM24] [2015-03-02|00:08:35] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM26] [2015-03-02|00:14:02] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[DATE|TIME : 2015-03-02|00:14:02]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM24] [2015-03-02|00:14:04] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 12,99
+
+OK
+RSSI: 12
+[DATE|TIME : 2015-03-02|00:14:05]
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM26] [2015-03-02|00:19:31] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-03-02|00:19:32]
+DEVICE STATE: READY
+[COM24] [2015-03-02|00:19:34] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 15,99
+
+OK
+RSSI: 15
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+[DATE|TIME : 2015-03-02|00:19:35]
+DEVICE STATE: READY
+[COM26] [2015-03-02|00:25:01] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY
+[COM24] [2015-03-02|00:25:04] Sending keep-alive message to server...
++CSQ Response: AT+CSQ
++CSQ: 16,99
+
+OK
+RSSI: 16
++COPS Response: AT+COPS?
++COPS: 0,0,"Cellcom GN",2
+
+OK
+CARRIER: Cellcom GN
++CPAS Response: AT+CPAS
++CPAS: 0
+
+OK
+DEVICE STATE: READY

@@ -22,8 +22,14 @@ def send_request(http_request, return_request=False):
 	except Exception as e:
 		echo("An Exception occurred!\n" + str(e))
 		echo(traceback.format_exc())
+		backup_failed_request(http_request)
 		echo("Moving on...")
 		return d.REGISTER_FAILED
+	
+def backup_failed_request(http_request):
+	if http_request.startswith("http://"):
+		open(d.log_dir + d.pending_reqs,"a").write(http_request + "\n")
+		echo("Successfully backed up failed request: " + http_request)
 
 def polly_request(phno, syslang, msglang, channel, iccid, app_ip, return_request=False):
 	echo("Registering phno="+phno+" and iccid="+iccid+" with Polly...")
@@ -58,5 +64,5 @@ def polly_register(phno, syslang=d.fr, msglang=d.fr, channel=d.channel, dest=d.P
 			
 			
 if __name__ == '__main__':
-	result = polly_request("0019543679247", "AmerEnglish", "AmerEnglish", "NotTheDongle", d.POLLY_BROWSE_ICCID, d.polly_browse_ip, return_request=True)
+	result = polly_request("0019543679247", "AmerEnglish", "AmerEnglish", "NotTheDongle", d.POLLY_BROWSE_ICCID, d.polly_browse_ip)
 	print(result)

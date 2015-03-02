@@ -1,332 +1,0 @@
-[DATE|TIME : 2015-02-16|00:08:11]
-[COM16] [2015-02-16|00:08:11] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-RSSI: 12
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[DATE|TIME : 2015-02-16|00:08:13]
-[COM22] [2015-02-16|00:08:13] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-RSSI: 12
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[DATE|TIME : 2015-02-16|00:08:15]
-[COM20] [2015-02-16|00:08:15] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-RSSI: 12
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-[DATE|TIME : 2015-02-16|00:08:16]
-[COM17] [2015-02-16|00:08:16] Sending keep-alive message to server...
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-RSSI: 12
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM16] [2015-02-16|00:13:15] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-RSSI: 12
-[DATE|TIME : 2015-02-16|00:13:16]
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM22] [2015-02-16|00:13:17] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 13,99
-
-OK
-RSSI: 13
-[DATE|TIME : 2015-02-16|00:13:17]
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM20] [2015-02-16|00:13:19] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 13,99
-
-OK
-RSSI: 13
-[COM17] [2015-02-16|00:13:19] Sending keep-alive message to server...
-[DATE|TIME : 2015-02-16|00:13:20]
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-RSSI: 12
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[DATE|TIME : 2015-02-16|00:13:21]
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM16] [2015-02-16|00:18:18] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-RSSI: 12
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-[DATE|TIME : 2015-02-16|00:18:19]
-DEVICE STATE: READY
-[COM22] [2015-02-16|00:18:19] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 13,99
-
-OK
-RSSI: 13
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-[DATE|TIME : 2015-02-16|00:18:21]
-DEVICE STATE: READY
-[COM20] [2015-02-16|00:18:22] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 13,99
-
-OK
-RSSI: 13
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-[COM17] [2015-02-16|00:18:23] Sending keep-alive message to server...
-[DATE|TIME : 2015-02-16|00:18:24]
-DEVICE STATE: READY
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-RSSI: 12
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-[DATE|TIME : 2015-02-16|00:18:25]
-DEVICE STATE: READY
-[COM16] [2015-02-16|00:23:21] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-RSSI: 12
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM22] [2015-02-16|00:23:23] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 13,99
-
-OK
-RSSI: 13
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM20] [2015-02-16|00:23:25] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 13,99
-
-OK
-RSSI: 13
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM17] [2015-02-16|00:23:27] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-RSSI: 12
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM16] [2015-02-16|00:28:24] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-[DATE|TIME : 2015-02-16|00:28:24]
-RSSI: 12
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM22] [2015-02-16|00:28:26] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 13,99
-
-OK
-[DATE|TIME : 2015-02-16|00:28:26]
-RSSI: 13
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM20] [2015-02-16|00:28:28] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 13,99
-
-OK
-[DATE|TIME : 2015-02-16|00:28:28]
-RSSI: 13
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
-[COM17] [2015-02-16|00:28:30] Sending keep-alive message to server...
-+CSQ Response: AT+CSQ
-+CSQ: 12,99
-
-OK
-[DATE|TIME : 2015-02-16|00:28:31]
-RSSI: 12
-+COPS Response: AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-CARRIER: Cellcom GN
-+CPAS Response: AT+CPAS
-+CPAS: 0
-
-OK
-DEVICE STATE: READY
