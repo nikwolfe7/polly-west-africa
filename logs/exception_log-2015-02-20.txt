@@ -1,0 +1,27 @@
+STARTED:[2015-02-20|18:08:49]
+[EXCEPTION] [2015-02-20|18:08:49] An Exception occurred!
+''
+[EXCEPTION] [2015-02-20|18:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1194, in do_open
+    r = h.getresponse()
+  File "C:\Python34\lib\http\client.py", line 1172, in getresponse
+    response.begin()
+  File "C:\Python34\lib\http\client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python34\lib\http\client.py", line 321, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: ''
+[EXCEPTION] [2015-02-20|18:08:49] Moving on... Tired of getting SMSs about this...
+[EXCEPTION] [2015-02-20|18:09:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==

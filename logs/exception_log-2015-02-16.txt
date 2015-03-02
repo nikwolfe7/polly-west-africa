@@ -4501,3 +4501,1569 @@ urllib.error.HTTPError: HTTP Error 404: Not Found
 http.client.BadStatusLine: ''
 [EXCEPTION] [2015-02-16|14:25:21] Moving on... Tired of getting SMSs about this...
 [EXCEPTION] [2015-02-16|14:29:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-16|19:30:04] An Exception occurred!
+''
+[EXCEPTION] [2015-02-16|19:30:05] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1194, in do_open
+    r = h.getresponse()
+  File "C:\Python34\lib\http\client.py", line 1172, in getresponse
+    response.begin()
+  File "C:\Python34\lib\http\client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python34\lib\http\client.py", line 321, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: ''
+[EXCEPTION] [2015-02-16|19:30:05] Moving on... Tired of getting SMSs about this...
+[EXCEPTION] [2015-02-16|19:30:05] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1BPUlQgQ09NMjAgaXMgdmFsaWQh
+[EXCEPTION] [2015-02-16|23:08:42] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xNl0gWzIwMTUtMDItMTZ8MjM6MDg6NDFdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-16|23:08:42] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE1
+[EXCEPTION] [2015-02-16|23:08:42] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:42] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:42] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xNl0gWzIwMTUtMDItMTZ8MjM6MDg6NDFdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-16|23:08:43] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE1
+[EXCEPTION] [2015-02-16|23:08:43] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:43] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:43] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:43] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:43] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:43] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:43] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:43] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] URL Error... Timeout?
+HTTP Error 404: Not Found
+oteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE1
+[EXCEPTION] [2015-02-16|23:08:44] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE1
+[EXCEPTION] [2015-02-16|23:08:44] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:44] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:45] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xN10gWzIwMTUtMDItMTZ8MjM6MDg6NDJdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-16|23:08:45] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-16|23:08:45] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-16|23:08:45] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMF0gWzIwMTUtMDItMTZ8MjM6MDg6NDRdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-16|23:08:45] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:45] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+tDT00xNg==
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:46] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+b_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-16|23:08:46] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xNl0gWzIwMTUtMDItMTZ8MjM6MDg6NDFdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-16|23:08:46] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] URL Error... Timeout?
+HTTP Error 404: Not Found
+rs\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:46] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE2
+[EXCEPTION] [2015-02-16|23:08:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE2
+[EXCEPTION] [2015-02-16|23:08:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xN10gWzIwMTUtMDItMTZ8MjM6MDg6NDJdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-16|23:08:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xN10gWzIwMTUtMDItMTZ8MjM6MDg6NDJdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-16|23:08:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTZ8MjM6MDg6NDNdOzE7MTU7Q2VsbGNvbSBHTjtSRUFEWTtDT00xNw==
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE2LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE2LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-16|23:08:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:48] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-16|23:08:48] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-16|23:08:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE1
+[EXCEPTION] [2015-02-16|23:08:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:48] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:48] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMl0gWzIwMTUtMDItMTZ8MjM6MDg6NDddIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-16|23:08:48] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-16|23:08:48] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTZ8MjM6MDg6NDNdOzE7MTU7Q2VsbGNvbSBHTjtSRUFEWTtDT00xNg==
+[EXCEPTION] [2015-02-16|23:08:49] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE1
+[EXCEPTION] [2015-02-16|23:08:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-16|23:08:49] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE2LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] URL Error... Timeout?
+HTTP Error 404: Not Found
+rs\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-16|23:08:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-16|23:08:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTZ8MjM6MDg6NDZdOzE7MTY7Q2VsbGNvbSBHTjtSRUFEWTtDT00yMA==
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-16|23:08:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-16|23:08:50] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-16|23:08:50] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:50] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE1
+[EXCEPTION] [2015-02-16|23:08:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-16|23:08:50] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xNl0gWzIwMTUtMDItMTZ8MjM6MDg6NDFdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-16|23:08:50] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:50] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-16|23:08:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE2
+[EXCEPTION] [2015-02-16|23:08:51] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:51] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:51] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:51] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE2
+[EXCEPTION] [2015-02-16|23:08:51] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:51] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-16|23:08:51] >>>> Retrying request: BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-16|23:09:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-16|23:09:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMl0gWzIwMTUtMDItMTZ8MjM6MDg6NDddIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-16|23:09:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTZ8MjM6MDg6NDhdOzE7MTY7Q2VsbGNvbSBHTjtSRUFEWTtDT00yMg==
+[EXCEPTION] [2015-02-16|23:09:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-16|23:09:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE1
+[EXCEPTION] [2015-02-16|23:09:49] >>>> Retrying request: BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==

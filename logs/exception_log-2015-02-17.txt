@@ -1,0 +1,91 @@
+STARTED:[2015-02-17|14:03:25]
+[EXCEPTION] [2015-02-17|14:03:25] An Exception occurred!
+''
+[EXCEPTION] [2015-02-17|14:03:25] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1194, in do_open
+    r = h.getresponse()
+  File "C:\Python34\lib\http\client.py", line 1172, in getresponse
+    response.begin()
+  File "C:\Python34\lib\http\client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python34\lib\http\client.py", line 321, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: ''
+[EXCEPTION] [2015-02-17|14:03:25] Moving on... Tired of getting SMSs about this...
+[EXCEPTION] [2015-02-17|14:03:25] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMl0gWzIwMTUtMDItMTd8MTQ6MDM6MjVdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-17|16:04:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-17|16:04:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-17|16:08:39] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1N0YXJ0ZWQgdXAsIGZvdW5kIG5vIGRlbGF5ZWQgcmVxdWVzdHMhIEFsbCBjbGVhci4uLg==
+[EXCEPTION] [2015-02-17|16:29:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-17|16:29:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-17|16:30:01] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1N0YXJ0ZWQgdXAsIGZvdW5kIG5vIGRlbGF5ZWQgcmVxdWVzdHMhIEFsbCBjbGVhci4uLg==
+[EXCEPTION] [2015-02-17|17:13:56] An Exception occurred!
+''
+[EXCEPTION] [2015-02-17|17:13:56] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1194, in do_open
+    r = h.getresponse()
+  File "C:\Python34\lib\http\client.py", line 1172, in getresponse
+    response.begin()
+  File "C:\Python34\lib\http\client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python34\lib\http\client.py", line 321, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: ''
+[EXCEPTION] [2015-02-17|17:13:56] Moving on... Tired of getting SMSs about this...
+[EXCEPTION] [2015-02-17|17:14:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTd8MTc6MTM6NTVdOzE7MTE7Q2VsbGNvbSBHTjtSRUFEWTtDT00xNg==
