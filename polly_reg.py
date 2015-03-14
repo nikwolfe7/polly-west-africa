@@ -1,5 +1,6 @@
 import defines as d
-from common import echo,web_request_timestamp
+import sys
+from common import echo,web_request_timestamp,backup_failed_request,xprint
 import traceback
 try: import urllib.request as urllib2
 except ImportError: import urllib2
@@ -18,13 +19,19 @@ def send_request(http_request, return_request=False):
 		echo("HTTP Response:\n\n"+wp+"\n")
 		echo("ID: "+request_id)
 		return request_id
+
+	except urllib2.URLError:
+		print("Network unreachable!")
+		backup_failed_request(http_request)
+		return d.REGISTER_FAILED
 	
 	except Exception as e:
 		echo("An Exception occurred!\n" + str(e))
 		echo(traceback.format_exc())
+		backup_failed_request(http_request)
 		echo("Moving on...")
 		return d.REGISTER_FAILED
-
+	
 def polly_request(phno, syslang, msglang, channel, iccid, app_ip, return_request=False):
 	echo("Registering phno="+phno+" and iccid="+iccid+" with Polly...")
 	ip = "http://" + app_ip
@@ -58,5 +65,5 @@ def polly_register(phno, syslang=d.fr, msglang=d.fr, channel=d.channel, dest=d.P
 			
 			
 if __name__ == '__main__':
-	result = polly_request("0019543679247", "AmerEnglish", "AmerEnglish", "NotTheDongle", d.POLLY_BROWSE_ICCID, d.polly_browse_ip, return_request=True)
+	result = polly_request("0019543679247", "AmerEnglish", "AmerEnglish", "NotTheDongle", d.POLLY_BROWSE_ICCID, d.polly_browse_ip)
 	print(result)

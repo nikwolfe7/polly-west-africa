@@ -1,459 +1,0 @@
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 13,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 13,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+CPAS
-+CPAS: 0
-
-OK
-AT+COPS=3,0
-OK
-AT
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-+CSQ: 13,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 13,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 13,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 13,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 13,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 13,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK
-AT
-OK
-AT+CSQ
-+CSQ: 12,99
-
-OK
-AT+COPS=3,0
-AT+COPS=3,0
-OK
-AT+COPS?
-+COPS: 0,0,"Cellcom GN",2
-
-OK
-AT+CPAS
-+CPAS: 0
-
-OK
-AT
-OK

@@ -132,9 +132,10 @@ if __name__ == "__main__":
 	Q = []
 	
 	# Process delayed requests
-	dreqs = Process(target=send_delayed_requests)
-	Q.append(dreqs)
-	dreqs.start()
+	if defines.try_failed_requests_at_startup:
+		dreqs = Process(target=send_delayed_requests)
+		Q.append(dreqs)
+		dreqs.start()
 	
 	# Spin processes off on the dongle ports
 	for p in ports.keys():

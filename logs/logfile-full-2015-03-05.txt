@@ -1,0 +1,971 @@
+STARTED:[2015-03-05|13:50:50]
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A50%3A50
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2573
+ID: 2573
+No pending requests file found... Creating placeholder...
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+An Exception occurred!
+<urlopen error [Errno 101] Network is unreachable>
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/urllib/request.py", line 1232, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.4/http/client.py", line 1065, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.4/http/client.py", line 1103, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.4/http/client.py", line 1061, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.4/http/client.py", line 906, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.4/http/client.py", line 841, in send
+    self.connect()
+  File "/usr/lib/python3.4/http/client.py", line 819, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python3.4/socket.py", line 509, in create_connection
+    raise err
+  File "/usr/lib/python3.4/socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/nwolfe/data/Dropbox/workspace/polly-west-africa/polly_reg.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout).read().decode('utf-8').replace("<br>","\n")
+  File "/usr/lib/python3.4/urllib/request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.4/urllib/request.py", line 455, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.4/urllib/request.py", line 473, in _open
+    '_open', req)
+  File "/usr/lib/python3.4/urllib/request.py", line 433, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.4/urllib/request.py", line 1258, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/lib/python3.4/urllib/request.py", line 1235, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 101] Network is unreachable>
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Moving on...
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A57%3A58
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A59%3A25
+Network unreachable!
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A59%3A41
+Network unreachable!
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:08:55]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+[DATE|TIME : 2015-03-05|14:08:56]
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:19:57]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+[DATE|TIME : 2015-03-05|14:19:58]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+[DATE|TIME : 2015-03-05|14:19:59]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+[DATE|TIME : 2015-03-05|14:20:00]
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:32:18]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+[DATE|TIME : 2015-03-05|14:32:19]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+[DATE|TIME : 2015-03-05|14:32:20]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:32:21]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+[DATE|TIME : 2015-03-05|14:32:22]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+[DATE|TIME : 2015-03-05|14:32:23]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A16
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A16
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A25
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A25
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A26
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A26
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A27
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A27
+[DATE|TIME : 2015-03-05|14:32:24]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A31
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A31
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A32
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A32
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+[DATE|TIME : 2015-03-05|14:32:25]
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+[DATE|TIME : 2015-03-05|14:32:25]
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+[DATE|TIME : 2015-03-05|14:32:25]
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+[DATE|TIME : 2015-03-05|14:32:25]
+Request is now back in ./logs/pending_requests.txt...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:32:51]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+[DATE|TIME : 2015-03-05|14:32:52]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+[DATE|TIME : 2015-03-05|14:32:53]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:32:54]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+[DATE|TIME : 2015-03-05|14:32:55]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+[DATE|TIME : 2015-03-05|14:32:56]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A16
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A16
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A25
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A25
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A26
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A26
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A27
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A27
+[DATE|TIME : 2015-03-05|14:32:57]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A31
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A31
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A32
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A32
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+[DATE|TIME : 2015-03-05|14:32:58]
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+[DATE|TIME : 2015-03-05|14:32:58]
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+[DATE|TIME : 2015-03-05|14:32:58]
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+Request is now back in ./logs/pending_requests.txt...
+[DATE|TIME : 2015-03-05|14:32:58]
+Request is now back in ./logs/pending_requests.txt...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:35:33]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+[DATE|TIME : 2015-03-05|14:35:34]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+[DATE|TIME : 2015-03-05|14:35:35]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:35:36]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+[DATE|TIME : 2015-03-05|14:35:37]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+[DATE|TIME : 2015-03-05|14:35:38]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A16
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A16
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A25
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A25
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A26
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A26
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A27
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A27
+[DATE|TIME : 2015-03-05|14:35:39]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A31
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A31
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A32
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A32
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:35:57]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+[DATE|TIME : 2015-03-05|14:35:58]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+[DATE|TIME : 2015-03-05|14:35:59]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:36:00]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+[DATE|TIME : 2015-03-05|14:36:01]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A41
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A42
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A43
+[DATE|TIME : 2015-03-05|14:36:02]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A19%3A46
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A16
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A16
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A25
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A25
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A26
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A26
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A27
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A27
+[DATE|TIME : 2015-03-05|14:36:03]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A31
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A31
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A32
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A28%3A32
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:36:21]
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:36:25]
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:36:28]
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:36:29]
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:36:30]
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:36:34]
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:36:57]
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:36:59]
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+[DATE|TIME : 2015-03-05|14:37:00]
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2013%3A54%3A33
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A06%3A56
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A20
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2014%3A07%3A30
+Delayed request successfully sent! Logging request...
+[DATE|TIME : 2015-03-05|14:37:38]
+All requests sent! Removing ./logs/pending_requests.txt
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A32%3A45
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A36%3A46
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+This request has already been queued. No need to back up.
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+This request has already been queued. No need to back up.
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+This request has already been queued. No need to back up.
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+[DATE|TIME : 2015-03-05|15:48:23]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+[DATE|TIME : 2015-03-05|15:48:23]
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+[DATE|TIME : 2015-03-05|15:48:24]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+[DATE|TIME : 2015-03-05|15:48:24]
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+Registering phno=0019543679247 and iccid=892246501005604963FF with Polly...
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+Successfully backed up failed request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+[DATE|TIME : 2015-03-05|15:56:31]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+[DATE|TIME : 2015-03-05|15:56:31]
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+[DATE|TIME : 2015-03-05|15:56:32]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+This request has already been queued. No need to back up.
+[DATE|TIME : 2015-03-05|15:56:32]
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+[DATE|TIME : 2015-03-05|15:56:51]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+[DATE|TIME : 2015-03-05|15:56:51]
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+[DATE|TIME : 2015-03-05|15:56:52]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+This request has already been queued. No need to back up.
+[DATE|TIME : 2015-03-05|15:56:52]
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+[DATE|TIME : 2015-03-05|15:57:01]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+[DATE|TIME : 2015-03-05|15:57:02]
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+[DATE|TIME : 2015-03-05|15:57:02]
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+This request has already been queued. No need to back up.
+Request failed again: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+Cannot verify that some requests were successfully sent. Re-queueing failed requests...
+This request has already been queued. No need to back up.
+[DATE|TIME : 2015-03-05|15:57:03]
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+This request has already been queued. No need to back up.
+Attempting to send delayed requests...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A43%3A58
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2604
+ID: 2604
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A15
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2605
+[DATE|TIME : 2015-03-05|15:57:10]
+ID: 2605
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A17
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2606
+ID: 2606
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A18
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2607
+[DATE|TIME : 2015-03-05|15:57:11]
+ID: 2607
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A19
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2608
+ID: 2608
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A20
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2609
+[DATE|TIME : 2015-03-05|15:57:12]
+ID: 2609
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A21
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2610
+ID: 2610
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A44%3A22
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2611
+[DATE|TIME : 2015-03-05|15:57:13]
+ID: 2611
+Delayed request successfully sent! Logging request...
+Sending request: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+HTTP Request Generated: http://128.2.208.191/wa/DBScripts/createMissedCall.php?ph=0019543679247&syslang=AmerEnglish&msglang=AmerEnglish&ch=NotTheDongle&iccid=892246501005604963FF&timeofreq=2015-03-05%2015%3A55%3A53
+HTTP Response:
+
+Your IP is 71.199.122.14
+Request Successful. Assigned request ID = 2612
+ID: 2612
+Delayed request successfully sent! Logging request...
+All requests sent! Removing ./logs/pending_requests.txt

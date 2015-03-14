@@ -55,16 +55,17 @@ def time_stamp():
 # ====================================================== #	
 # simple logging... the default
 def echo(msg, pre="LOG", retval=False):
+	print(msg)
 	import remote_monitor
 	time_stamp()
 	remote_monitor.update(pre + defines.file_delim + msg, retval)
 	update_log(polly_log_full,msg)
-	print(msg)
 
 # ====================================================== #	
 # logging for events in CSV format
 # msg is expected to be an array...
 def csvecho(msg, pre="CSV", retval=True):
+	print(msg)
 	import remote_monitor
 	stamp = [nice_date_time()]
 	msg = stamp + msg
@@ -75,7 +76,6 @@ def csvecho(msg, pre="CSV", retval=True):
 	else:
 		remote_monitor.update(pre + defines.file_delim + msg, retval)
 	update_log(polly_log,msg)
-	print(msg)
 	
 # ====================================================== #
 def connect(com):
@@ -101,3 +101,21 @@ def xprint(msg):
 	exfile = new_log_file(defines.exception_log)
 	update_log(exfile, prefix("EXCEPTION") + msg)
 	print(msg)
+
+# ====================================================== #	
+def new_pending_requests_log():
+	if not os.path.isfile(defines.log_dir + defines.pending_reqs):
+		echo("No pending requests file found... Creating placeholder...")
+		delayed_reqs = open(defines.log_dir + defines.pending_reqs,"w")
+		delayed_reqs.close()
+	
+# ====================================================== #
+def backup_failed_request(http_request):
+	new_pending_requests_log()
+	if http_request.startswith("http://"):
+		existing_reqs = [l.strip() for l in open(defines.log_dir + defines.pending_reqs).readlines()]
+		if not http_request in existing_reqs: 
+			open(defines.log_dir + defines.pending_reqs,"a").write(http_request + "\n")
+			echo("Successfully backed up failed request: " + http_request)
+		else: 
+			echo("This request has already been queued. No need to back up.")	
