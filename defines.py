@@ -22,6 +22,8 @@ tropo_recipient = "[RECIPIENT]"
 tropo_message = "[MESSAGE]"
 web_request_timeout = 60
 socket.setdefaulttimeout(web_request_timeout)
+try_failed_requests_at_startup = False
+backup_logging_requests_batch_retry_size = 50 # min num of failed requests before retrying...
 
 # ====================================================== #	
 # AT constants
