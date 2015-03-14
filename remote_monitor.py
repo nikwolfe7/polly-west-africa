@@ -12,7 +12,7 @@ from multiprocessing import Process
 def send_request(http_request):
 	#xprint("HTTP Request Generated: " + http_request)
 	try:
-		wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+		wp = urllib2.urlopen(str(http_request), timeout=d.web_request_timeout)
 		wp = wp.read().decode('utf-8').lower()
 		#xprint("HTTP Response:\n\n"+wp+"\n")
 		return d.REQUEST_SUCCESS.lower() in wp
@@ -86,7 +86,7 @@ def spin_register_process(http_request):
 		p.start()
 
 def clean_msg_for_url(msg):
-	return msg.replace(" ","%20").replace("+", "%2B")
+	return urllib2.quote(msg)
 	
 def tropo_remote_sms(recipient, msg):
 	xprint("Sending SMS to Tropo...")
