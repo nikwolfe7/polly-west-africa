@@ -93,7 +93,7 @@ def tropo_remote_sms(recipient, msg):
 	xprint("Sending SMS to Tropo...")
 	recipient = clean_msg_for_url(recipient.lstrip('0'))
 	msg = clean_msg_for_url(msg)
-	tropo_request = d.tropo_request.replace(d.tropo_recipient,recipient).replace(d.tropo_message,msg)
+	tropo_request = d.tropo_request_polly_sante.replace(d.tropo_recipient,recipient).replace(d.tropo_message,msg)
 	spin_register_process(str(tropo_request))
 	
 def update(update, retval=False):
