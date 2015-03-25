@@ -13,8 +13,6 @@ def main():
     for num in fixed: o.write(num + "\n")
     o.close()
         
-        
-    
 
 if __name__ == '__main__': main()
     
