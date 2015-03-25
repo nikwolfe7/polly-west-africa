@@ -1,0 +1,505 @@
+STARTED:[2015-03-06|08:47:29]
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1NlYXJjaGluZyBmb3IgQ09NIHBvcnRzLi4u
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTEuLi4=
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1NlYXJjaGluZyBmb3IgQ09NIHBvcnRzLi4u
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTEuLi4=
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOw0KU3RhdHVzIGZvciBkZXZpY2UgQ09NMToNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogICAgQmF1ZDogICAgICAgICAgICAxMjAwDQogICAgUGFyaXR5OiAgICAgICAgICBOb25lDQogICAgRGF0YSBCaXRzOiAgICAgICA3DQogICAgU3RvcCBCaXRzOiAgICAgICAxDQogICAgVGltZW91dDogICAgICAgICBPRkYNCiAgICBYT04vWE9GRjogICAgICAgIE9GRg0KICAgIENUUyBoYW5kc2hha2luZzogT0ZGDQogICAgRFNSIGhhbmRzaGFraW5nOiBPRkYNCiAgICBEU1Igc2Vuc2l0aXZpdHk6IE9GRg0KICAgIERUUiBjaXJjdWl0OiAgICAgT04NCiAgICBSVFMgY2lyY3VpdDogICAgIE9ODQoNCg0KU3RhdHVzIGZvciBkZXZpY2UgQ09OOg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgIExpbmVzOiAgICAgICAgICAzMDANCiAgICBDb2x1bW5zOiAgICAgICAgMTIwDQogICAgS2V5Ym9hcmQgcmF0ZTogIDMxDQogICAgS2V5Ym9hcmQgZGVsYXk6IDENCiAgICBDb2RlIHBhZ2U6ICAgICAgNDM3DQoNCg==
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1NlYXJjaGluZyBmb3IgQ09NIHBvcnRzLi4u
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:29] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTEuLi4=
+[EXCEPTION] [2015-03-06|08:47:29] URL Error... Timeout?
+<urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:47:30] Traceback (most recent call last):
+  File "C:\Python34\lib\urllib\request.py", line 1189, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "C:\Python34\lib\http\client.py", line 1090, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python34\lib\http\client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "C:\Python34\lib\http\client.py", line 1086, in endheaders
+    self._send_output(message_body)
+  File "C:\Python34\lib\http\client.py", line 924, in _send_output
+    self.send(msg)
+  File "C:\Python34\lib\http\client.py", line 859, in send
+    self.connect()
+  File "C:\Python34\lib\http\client.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "C:\Python34\lib\socket.py", line 509, in create_connection
+    raise err
+  File "C:\Python34\lib\socket.py", line 500, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10051] A socket operation was attempted to an unreachable network
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1192, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10051] A socket operation was attempted to an unreachable network>
+[EXCEPTION] [2015-03-06|08:48:20] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO05vIGRldGVjdGVkIENPTSBwb3J0cy4gVHJ5IGluc2VydGluZy9yZWluc2VydGluZyB0aGUgZG9uZ2xlLg==
+[EXCEPTION] [2015-03-06|08:48:21] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NvdWxkbid0IGNvbm5lY3QgdG8gQ09NMSBvciBwb3J0IGFscmVhZHkgaW4gdXNlIQ==
+[EXCEPTION] [2015-03-06|08:48:21] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOw0KU3RhdHVzIGZvciBkZXZpY2UgQ09NMToNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogICAgQmF1ZDogICAgICAgICAgICAxMjAwDQogICAgUGFyaXR5OiAgICAgICAgICBOb25lDQogICAgRGF0YSBCaXRzOiAgICAgICA3DQogICAgU3RvcCBCaXRzOiAgICAgICAxDQogICAgVGltZW91dDogICAgICAgICBPRkYNCiAgICBYT04vWE9GRjogICAgICAgIE9GRg0KICAgIENUUyBoYW5kc2hha2luZzogT0ZGDQogICAgRFNSIGhhbmRzaGFraW5nOiBPRkYNCiAgICBEU1Igc2Vuc2l0aXZpdHk6IE9GRg0KICAgIERUUiBjaXJjdWl0OiAgICAgT04NCiAgICBSVFMgY2lyY3VpdDogICAgIE9ODQoNCg0KU3RhdHVzIGZvciBkZXZpY2UgQ09OOg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgIExpbmVzOiAgICAgICAgICAzMDANCiAgICBDb2x1bW5zOiAgICAgICAgMTIwDQogICAgS2V5Ym9hcmQgcmF0ZTogIDMxDQogICAgS2V5Ym9hcmQgZGVsYXk6IDENCiAgICBDb2RlIHBhZ2U6ICAgICAgNDM3DQoNCg==
+[EXCEPTION] [2015-03-06|08:48:21] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1NlYXJjaGluZyBmb3IgQ09NIHBvcnRzLi4u
+[EXCEPTION] [2015-03-06|08:48:22] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTEuLi4=

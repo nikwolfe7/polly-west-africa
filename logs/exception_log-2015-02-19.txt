@@ -1,0 +1,635 @@
+STARTED:[2015-02-19|01:25:22]
+[EXCEPTION] [2015-02-19|01:25:22] An Exception occurred!
+''
+[EXCEPTION] [2015-02-19|01:25:22] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1194, in do_open
+    r = h.getresponse()
+  File "C:\Python34\lib\http\client.py", line 1172, in getresponse
+    response.begin()
+  File "C:\Python34\lib\http\client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python34\lib\http\client.py", line 321, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: ''
+[EXCEPTION] [2015-02-19|01:25:22] Moving on... Tired of getting SMSs about this...
+[EXCEPTION] [2015-02-19|01:25:23] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDEy
+[EXCEPTION] [2015-02-19|02:09:39] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:40] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:40] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:40] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:40] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:41] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:41] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:41] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:41] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:41] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:41] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:42] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:42] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:42] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:42] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:42] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:44] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:44] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:44] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:44] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|02:09:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMF0gWzIwMTUtMDItMTl8MDI6MDg6MzldIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-19|02:10:19] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDEyLDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-19|02:10:19] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDEy
+[EXCEPTION] [2015-02-19|02:10:19] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|02:10:19] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-19|02:10:20] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTl8MDI6MDg6NDBdOzE7MTI7Q2VsbGNvbSBHTjtSRUFEWTtDT00yMA==
+[EXCEPTION] [2015-02-19|02:10:20] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-19|02:10:20] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|02:10:21] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xN10gWzIwMTUtMDItMTl8MDI6MDg6NDFdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-19|02:10:21] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-19|02:10:21] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE1
+[EXCEPTION] [2015-02-19|02:10:22] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|02:10:22] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-19|02:10:22] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|02:10:23] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-19|02:10:23] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTl8MDI6MDg6NDJdOzE7MTU7Q2VsbGNvbSBHTjtSRUFEWTtDT00xNw==
+[EXCEPTION] [2015-02-19|02:10:23] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xNl0gWzIwMTUtMDItMTl8MDI6MDg6NDNdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-19|02:10:24] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDE1LDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-19|02:10:24] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDE1
+[EXCEPTION] [2015-02-19|02:10:24] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMl0gWzIwMTUtMDItMTl8MDI6MDg6NDRdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-19|02:10:25] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-19|02:10:25] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDEy
+[EXCEPTION] [2015-02-19|02:10:25] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDEyLDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-19|02:10:25] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|02:10:26] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-19|02:10:26] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|02:10:26] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|02:10:27] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-19|02:10:27] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTl8MDI6MDg6NDVdOzE7MTI7Q2VsbGNvbSBHTjtSRUFEWTtDT00yMg==
+[EXCEPTION] [2015-02-19|02:10:27] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|02:10:28] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTl8MDI6MDg6NDVdOzE7MTU7Q2VsbGNvbSBHTjtSRUFEWTtDT00xNg==
+[EXCEPTION] [2015-02-19|02:10:28] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-19|06:52:16] An Exception occurred!
+''
+[EXCEPTION] [2015-02-19|06:52:16] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1194, in do_open
+    r = h.getresponse()
+  File "C:\Python34\lib\http\client.py", line 1172, in getresponse
+    response.begin()
+  File "C:\Python34\lib\http\client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python34\lib\http\client.py", line 321, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: ''
+[EXCEPTION] [2015-02-19|06:52:16] An Exception occurred!
+''
+[EXCEPTION] [2015-02-19|06:52:16] Moving on... Tired of getting SMSs about this...
+[EXCEPTION] [2015-02-19|06:52:16] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1194, in do_open
+    r = h.getresponse()
+  File "C:\Python34\lib\http\client.py", line 1172, in getresponse
+    response.begin()
+  File "C:\Python34\lib\http\client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python34\lib\http\client.py", line 321, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: ''
+[EXCEPTION] [2015-02-19|06:52:16] Moving on... Tired of getting SMSs about this...
+[EXCEPTION] [2015-02-19|06:52:17] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xNl0gWzIwMTUtMDItMTl8MDY6NTI6MTZdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-19|06:52:17] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTl8MDY6NTI6MTRdOzE7MTM7Q2VsbGNvbSBHTjtSRUFEWTtDT00yMA==
+[EXCEPTION] [2015-02-19|10:04:47] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|10:04:47] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|10:08:41] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1N0YXJ0ZWQgdXAsIGZvdW5kIG5vIGRlbGF5ZWQgcmVxdWVzdHMhIEFsbCBjbGVhci4uLg==
+[EXCEPTION] [2015-02-19|13:09:42] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:43] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:43] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:43] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:43] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:44] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:44] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:44] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:44] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:44] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:44] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:45] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:46] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMl0gWzIwMTUtMDItMTl8MTM6MDg6NDJdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-19|13:09:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDEz
+[EXCEPTION] [2015-02-19|13:09:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDEzLDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-19|13:09:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xN10gWzIwMTUtMDItMTl8MTM6MDg6NDNdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-19|13:09:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDEyLDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-19|13:09:49] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|13:09:49] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:49] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDEy
+[EXCEPTION] [2015-02-19|13:09:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-19|13:09:50] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:50] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|13:09:50] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTl8MTM6MDg6NDRdOzE7MTM7Q2VsbGNvbSBHTjtSRUFEWTtDT00yMg==
+[EXCEPTION] [2015-02-19|13:09:50] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:50] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|13:09:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-19|13:09:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-19|13:09:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-19|13:09:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|13:09:52] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|13:09:52] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTl8MTM6MDg6NDRdOzE7MTI7Q2VsbGNvbSBHTjtSRUFEWTtDT00xNw==
+[EXCEPTION] [2015-02-19|13:09:52] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xNl0gWzIwMTUtMDItMTl8MTM6MDg6NDRdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-19|13:09:53] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDEy
+[EXCEPTION] [2015-02-19|13:09:53] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDEyLDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-19|13:09:54] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|13:09:55] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-19|13:09:55] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-19|13:09:55] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTl8MTM6MDg6NDZdOzE7MTI7Q2VsbGNvbSBHTjtSRUFEWTtDT00xNg==
+[EXCEPTION] [2015-02-19|13:09:56] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|13:14:13] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMF0gWzIwMTUtMDItMTl8MTM6MDg6NDhdIFNlbmRpbmcga2VlcC1hbGl2ZSBtZXNzYWdlIHRvIHNlcnZlci4uLg==
+[EXCEPTION] [2015-02-19|13:14:13] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDU1EgUmVzcG9uc2U6IEFUK0NTUQ0NCitDU1E6IDEzLDk5DQoNCk9LDQo=
+[EXCEPTION] [2015-02-19|13:14:14] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDEz
+[EXCEPTION] [2015-02-19|13:14:14] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NBUlJJRVI6IENlbGxjb20gR04=
+[EXCEPTION] [2015-02-19|13:14:14] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDT1BTIFJlc3BvbnNlOiBBVCtDT1BTPw0NCitDT1BTOiAwLDAsIkNlbGxjb20gR04iLDINCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|13:14:15] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0RFVklDRSBTVEFURTogUkVBRFk=
+[EXCEPTION] [2015-02-19|13:14:15] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOytDUEFTIFJlc3BvbnNlOiBBVCtDUEFTDQ0KK0NQQVM6IDANCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|13:14:15] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTl8MTM6MDg6NTBdOzE7MTM7Q2VsbGNvbSBHTjtSRUFEWTtDT00yMA==
+[EXCEPTION] [2015-02-19|14:30:12] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:12] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:12] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:12] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:12] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:12] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] URL Error... Timeout?
+HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:30:13] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 461, in open
+    response = meth(req, response)
+  File "C:\Python34\lib\urllib\request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python34\lib\urllib\request.py", line 499, in error
+    return self._call_chain(*args)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[EXCEPTION] [2015-02-19|14:31:01] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:01] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:01] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:02] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:02] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:02] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:02] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:03] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:03] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:03] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:03] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:04] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:04] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:04] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:04] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:04] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:05] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:05] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:05] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:06] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:06] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:06] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:06] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:06] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:06] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:07] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:07] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:07] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:07] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:07] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:07] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:08] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:08] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:08] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:08] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:09] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:09] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:09] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:10] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:10] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:31:10] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|14:34:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO15JQ0NJRCBSZXNwb25zZTogQVReSUNDSUQ/DQ0KXklDQ0lEOiA4OTIyNDY1MDEwMDU2MDQ5NjNGRg0KDQpPSw0K
+[EXCEPTION] [2015-02-19|14:34:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0lDQ0lEOiA4OTIyNDY1MDEwNTA5MTg5NjFGRg==
+[EXCEPTION] [2015-02-19|14:34:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0FQUExJQ0FUSU9OOiBwb2xseV9icm93c2U=
+[EXCEPTION] [2015-02-19|14:34:48] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO15JQ0NJRCBSZXNwb25zZTogQVReSUNDSUQ/DQ0KXklDQ0lEOiA4OTIyNDY1MDEwMDU2MDQ5NjNGRg0KDQpPSw0K
+[EXCEPTION] [2015-02-19|14:34:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0FQUExJQ0FUSU9OOiBwb2xseV9nYW1l
+[EXCEPTION] [2015-02-19|14:34:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0FQUExJQ0FUSU9OOiBwb2xseV9icm93c2U=
+[EXCEPTION] [2015-02-19|14:34:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xN10gWzIwMTUtMDItMTl8MTQ6MzA6MTBdIFdhaXRpbmcgZm9yIGEgY2FsbCBmcm9tIEdvZG90Li4uIE5vdGhpbmcgdG8gYmUgZG9uZS4uLgo=
+[EXCEPTION] [2015-02-19|14:34:49] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0FQUExJQ0FUSU9OOiBwb2xseV9nYW1l
+[EXCEPTION] [2015-02-19|14:34:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0lDQ0lEOiA4OTIyNDY1MDEwMDU2MDQ5NjNGRg==
+[EXCEPTION] [2015-02-19|14:34:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO15JQ0NJRCBSZXNwb25zZTogQVReSUNDSUQ/DQ0KXklDQ0lEOiA4OTIyNDY1MDEwNTA5MTg5NjFGRg0KDQpPSw0K
+[EXCEPTION] [2015-02-19|14:34:50] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO15JQ0NJRCBSZXNwb25zZTogQVReSUNDSUQ/DQ0KXklDQ0lEOiA4OTIyNDY1MDEwNTA5MTg5NjFGRg0KDQpPSw0K
+[EXCEPTION] [2015-02-19|14:34:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1NlYXJjaGluZyBmb3IgQ09NIHBvcnRzLi4u
+[EXCEPTION] [2015-02-19|14:34:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOw0KU3RhdHVzIGZvciBkZXZpY2UgQ09NMToNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogICAgQmF1ZDogICAgICAgICAgICAxMTUyMDANCiAgICBQYXJpdHk6ICAgICAgICAgIE5vbmUNCiAgICBEYXRhIEJpdHM6ICAgICAgIDgNCiAgICBTdG9wIEJpdHM6ICAgICAgIDENCiAgICBUaW1lb3V0OiAgICAgICAgIE9GRg0KICAgIFhPTi9YT0ZGOiAgICAgICAgT0ZGDQogICAgQ1RTIGhhbmRzaGFraW5nOiBPRkYNCiAgICBEU1IgaGFuZHNoYWtpbmc6IE9GRg0KICAgIERTUiBzZW5zaXRpdml0eTogT0ZGDQogICAgRFRSIGNpcmN1aXQ6ICAgICBPTg0KICAgIFJUUyBjaXJjdWl0OiAgICAgT04NCg0KDQpTdGF0dXMgZm9yIGRldmljZSBDT00yMDoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgIEJhdWQ6ICAgICAgICAgICAgMTE1MjAwDQogICAgUGFyaXR5OiAgICAgICAgICBOb25lDQogICAgRGF0YSBCaXRzOiAgICAgICA4DQogICAgU3RvcCBCaXRzOiAgICAgICAxDQogICAgVGltZW91dDogICAgICAgICBPRkYNCiAgICBYT04vWE9GRjogICAgICAgIE9GRg0KICAgIENUUyBoYW5kc2hha2luZzogT0ZGDQogICAgRFNSIGhhbmRzaGFraW5nOiBPRkYNCiAgICBEU1Igc2Vuc2l0aXZpdHk6IE9GRg0KICAgIERUUiBjaXJjdWl0OiAgICAgT04NCiAgICBSVFMgY2lyY3VpdDogICAgIE9ODQoNCg0KU3RhdHVzIGZvciBkZXZpY2UgQ09NMjE6DQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgICBCYXVkOiAgICAgICAgICAgIDExNTIwMA0KICAgIFBhcml0eTogICAgICAgICAgTm9uZQ0KICAgIERhdGEgQml0czogICAgICAgOA0KICAgIFN0b3AgQml0czogICAgICAgMQ0KICAgIFRpbWVvdXQ6ICAgICAgICAgT0ZGDQogICAgWE9OL1hPRkY6ICAgICAgICBPRkYNCiAgICBDVFMgaGFuZHNoYWtpbmc6IE9GRg0KICAgIERTUiBoYW5kc2hha2luZzogT0ZGDQogICAgRFNSIHNlbnNpdGl2aXR5OiBPRkYNCiAgICBEVFIgY2lyY3VpdDogICAgIE9ODQogICAgUlRTIGNpcmN1aXQ6ICAgICBPTg0KDQoNClN0YXR1cyBmb3IgZGV2aWNlIENPTTIyOg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogICAgQmF1ZDogICAgICAgICAgICAxMTUyMDANCiAgICBQYXJpdHk6ICAgICAgICAgIE5vbmUNCiAgICBEYXRhIEJpdHM6ICAgICAgIDgNCiAgICBTdG9wIEJpdHM6ICAgICAgIDENCiAgICBUaW1lb3V0OiAgICAgICAgIE9GRg0KICAgIFhPTi9YT0ZGOiAgICAgICAgT0ZGDQogICAgQ1RTIGhhbmRzaGFraW5nOiBPRkYNCiAgICBEU1IgaGFuZHNoYWtpbmc6IE9GRg0KICAgIERTUiBzZW5zaXRpdml0eTogT0ZGDQogICAgRFRSIGNpcmN1aXQ6ICAgICBPTg0KICAgIFJUUyBjaXJjdWl0OiAgICAgT04NCg0KDQpTdGF0dXMgZm9yIGRldmljZSBDT00xNjoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgIEJhdWQ6ICAgICAgICAgICAgMTE1MjAwDQogICAgUGFyaXR5OiAgICAgICAgICBOb25lDQogICAgRGF0YSBCaXRzOiAgICAgICA4DQogICAgU3RvcCBCaXRzOiAgICAgICAxDQogICAgVGltZW91dDogICAgICAgICBPRkYNCiAgICBYT04vWE9GRjogICAgICAgIE9GRg0KICAgIENUUyBoYW5kc2hha2luZzogT0ZGDQogICAgRFNSIGhhbmRzaGFraW5nOiBPRkYNCiAgICBEU1Igc2Vuc2l0aXZpdHk6IE9GRg0KICAgIERUUiBjaXJjdWl0OiAgICAgT04NCiAgICBSVFMgY2lyY3VpdDogICAgIE9ODQoNCg0KU3RhdHVzIGZvciBkZXZpY2UgQ09NMTg6DQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgICBCYXVkOiAgICAgICAgICAgIDExNTIwMA0KICAgIFBhcml0eTogICAgICAgICAgTm9uZQ0KICAgIERhdGEgQml0czogICAgICAgOA0KICAgIFN0b3AgQml0czogICAgICAgMQ0KICAgIFRpbWVvdXQ6ICAgICAgICAgT0ZGDQogICAgWE9OL1hPRkY6ICAgICAgICBPRkYNCiAgICBDVFMgaGFuZHNoYWtpbmc6IE9GRg0KICAgIERTUiBoYW5kc2hha2luZzogT0ZGDQogICAgRFNSIHNlbnNpdGl2aXR5OiBPRkYNCiAgICBEVFIgY2lyY3VpdDogICAgIE9ODQogICAgUlRTIGNpcmN1aXQ6ICAgICBPTg0KDQoNClN0YXR1cyBmb3IgZGV2aWNlIENPTTE3Og0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogICAgQmF1ZDogICAgICAgICAgICAxMTUyMDANCiAgICBQYXJpdHk6ICAgICAgICAgIE5vbmUNCiAgICBEYXRhIEJpdHM6ICAgICAgIDgNCiAgICBTdG9wIEJpdHM6ICAgICAgIDENCiAgICBUaW1lb3V0OiAgICAgICAgIE9GRg0KICAgIFhPTi9YT0ZGOiAgICAgICAgT0ZGDQogICAgQ1RTIGhhbmRzaGFraW5nOiBPRkYNCiAgICBEU1IgaGFuZHNoYWtpbmc6IE9GRg0KICAgIERTUiBzZW5zaXRpdml0eTogT0ZGDQogICAgRFRSIGNpcmN1aXQ6ICAgICBPTg0KICAgIFJUUyBjaXJjdWl0OiAgICAgT04NCg0KDQpTdGF0dXMgZm9yIGRldmljZSBDT046DQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogICAgTGluZXM6ICAgICAgICAgIDMwMA0KICAgIENvbHVtbnM6ICAgICAgICAxMjANCiAgICBLZXlib2FyZCByYXRlOiAgMzENCiAgICBLZXlib2FyZCBkZWxheTogMQ0KICAgIENvZGUgcGFnZTogICAgICA0MzcNCg0K
+[EXCEPTION] [2015-02-19|14:34:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTIwLi4u
+[EXCEPTION] [2015-02-19|14:34:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1BIT05FIE5VTUJFUjogNjY1ODkxMzI=
+[EXCEPTION] [2015-02-19|14:34:52] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0FUK0NOVU0gUmVzcG9uc2U6IEFUK0NOVU0NDQorQ05VTTogIk15IHNpbSAxIiwiNjcxMDQwMTgiLDEyOQ0KK0NOVU06ICJNeSBzaW0gMiIsIjY2NTg5MTMyIiwxMjkNCg0KK0NOVQ==
+[EXCEPTION] [2015-02-19|14:34:52] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1BPUlQgQ09NMjAgaXMgdmFsaWQh
+[EXCEPTION] [2015-02-19|14:34:52] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTIyLi4u
+[EXCEPTION] [2015-02-19|14:34:53] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1BPUlQgQ09NMjIgaXMgdmFsaWQh
+[EXCEPTION] [2015-02-19|14:34:53] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTE2Li4u
+[EXCEPTION] [2015-02-19|14:34:53] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0FUK0NOVU0gUmVzcG9uc2U6IEFUK0NOVU0NDQorQ05VTTogIk15IHNpbSAxIiwiNjcxMDQwMTgiLDEyOQ0KK0NOVU06ICJNeSBzaW0gMiIsIjY2NTg5MTMyIiwxMjkNCg0KT0sNCg==
+[EXCEPTION] [2015-02-19|14:34:53] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1BIT05FIE5VTUJFUjogNjY1ODkxMzI=
+[EXCEPTION] [2015-02-19|14:34:54] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0FUK0NOVU0gUmVzcG9uc2U6IEFUK0NOVU0NDQpPSw0K
+[EXCEPTION] [2015-02-19|14:34:54] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NvdWxkbid0IGNvbm5lY3QgdG8gQ09NMSBvciBwb3J0IGFscmVhZHkgaW4gdXNlIQ==
+[EXCEPTION] [2015-02-19|14:34:54] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1BIT05FIE5VTUJFUjogTk9fTlVNQkVS
+[EXCEPTION] [2015-02-19|14:34:55] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1BPUlQgQ09NMTYgaXMgdmFsaWQh
+[EXCEPTION] [2015-02-19|14:34:55] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTEuLi4=
+[EXCEPTION] [2015-02-19|14:34:55] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTE3Li4u
+[EXCEPTION] [2015-02-19|14:34:55] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTE4Li4u
+[EXCEPTION] [2015-02-19|14:34:56] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1BPUlQgQ09NMTcgaXMgdmFsaWQh
+[EXCEPTION] [2015-02-19|14:34:56] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1dlIGluIGJ1c2luZXNzLi4uIFRoZXJlJ3MgQ09NIHBvcnRzIGhlcmUh
+[EXCEPTION] [2015-02-19|14:34:56] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1BIT05FIE5VTUJFUjogTk9fTlVNQkVS
+[EXCEPTION] [2015-02-19|14:34:57] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NvdWxkbid0IGNvbm5lY3QgdG8gQ09NMTggb3IgcG9ydCBhbHJlYWR5IGluIHVzZSE=
+[EXCEPTION] [2015-02-19|14:34:57] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0V4YW1pbmluZyBwb3J0IENPTTIxLi4u
+[EXCEPTION] [2015-02-19|14:34:57] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0FUK0NOVU0gUmVzcG9uc2U6IEFUK0NOVU0NDQpPSw0K
+[EXCEPTION] [2015-02-19|14:34:58] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO0NvdWxkbid0IGNvbm5lY3QgdG8gQ09NMjEgb3IgcG9ydCBhbHJlYWR5IGluIHVzZSE=
+[EXCEPTION] [2015-02-19|14:34:58] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xN10gWzIwMTUtMDItMTl8MTQ6MzA6MDZdIFNldHRpbmcgdXAgZG9uZ2xlIGZvciB2b2ljZSBjYWxscy4uLg==
+[EXCEPTION] [2015-02-19|14:34:58] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOwpbQ09NMjBdIFsyMDE1LTAyLTE5fDE0OjMwOjA2XSAKUHJvY2VzcyBzdGFydGVkLi4uIExpc3RlbmluZyBvbiBDT00yMC4uLgo=
+[EXCEPTION] [2015-02-19|14:34:58] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xNl0gWzIwMTUtMDItMTl8MTQ6MzA6MDZdIFNldHRpbmcgdXAgZG9uZ2xlIGZvciB2b2ljZSBjYWxscy4uLg==
+[EXCEPTION] [2015-02-19|14:34:59] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOwpbQ09NMTZdIFsyMDE1LTAyLTE5fDE0OjMwOjA2XSAKUHJvY2VzcyBzdGFydGVkLi4uIExpc3RlbmluZyBvbiBDT00xNi4uLgo=
+[EXCEPTION] [2015-02-19|14:34:59] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMF0gWzIwMTUtMDItMTl8MTQ6MzA6MDZdIFNldHRpbmcgdXAgZG9uZ2xlIGZvciB2b2ljZSBjYWxscy4uLg==
+[EXCEPTION] [2015-02-19|14:34:59] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOwpbQ09NMjJdIFsyMDE1LTAyLTE5fDE0OjMwOjA3XSAKUHJvY2VzcyBzdGFydGVkLi4uIExpc3RlbmluZyBvbiBDT00yMi4uLgo=
+[EXCEPTION] [2015-02-19|14:35:00] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HOwpbQ09NMTddIFsyMDE1LTAyLTE5fDE0OjMwOjA2XSAKUHJvY2VzcyBzdGFydGVkLi4uIExpc3RlbmluZyBvbiBDT00xNy4uLgo=
+[EXCEPTION] [2015-02-19|14:35:00] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1N0YXJ0ZWQgdXAsIGZvdW5kIG5vIGRlbGF5ZWQgcmVxdWVzdHMhIEFsbCBjbGVhci4uLg==
+[EXCEPTION] [2015-02-19|14:35:00] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMl0gWzIwMTUtMDItMTl8MTQ6MzA6MDddIFNldHRpbmcgdXAgZG9uZ2xlIGZvciB2b2ljZSBjYWxscy4uLg==
+[EXCEPTION] [2015-02-19|14:35:00] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMF0gWzIwMTUtMDItMTl8MTQ6MzA6MDhdIEluaXRpYWxpemluZyBDT00yMCBmb3Igdm9pY2UgY2FsbHMuLi4=
+[EXCEPTION] [2015-02-19|14:35:01] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMl0gWzIwMTUtMDItMTl8MTQ6MzA6MDhdIEluaXRpYWxpemluZyBDT00yMiBmb3Igdm9pY2UgY2FsbHMuLi4=
+[EXCEPTION] [2015-02-19|14:35:01] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xN10gWzIwMTUtMDItMTl8MTQ6MzA6MDhdIEluaXRpYWxpemluZyBDT00xNyBmb3Igdm9pY2UgY2FsbHMuLi4=
+[EXCEPTION] [2015-02-19|14:35:01] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xNl0gWzIwMTUtMDItMTl8MTQ6MzA6MDhdIEluaXRpYWxpemluZyBDT00xNiBmb3Igdm9pY2UgY2FsbHMuLi4=
+[EXCEPTION] [2015-02-19|14:35:02] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00xNl0gWzIwMTUtMDItMTl8MTQ6MzA6MTBdIFdhaXRpbmcgZm9yIGEgY2FsbCBmcm9tIEdvZG90Li4uIE5vdGhpbmcgdG8gYmUgZG9uZS4uLgo=
+[EXCEPTION] [2015-02-19|14:35:02] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMF0gWzIwMTUtMDItMTl8MTQ6MzA6MTBdIFdhaXRpbmcgZm9yIGEgY2FsbCBmcm9tIEdvZG90Li4uIE5vdGhpbmcgdG8gYmUgZG9uZS4uLgo=
+[EXCEPTION] [2015-02-19|14:35:02] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1tDT00yMl0gWzIwMTUtMDItMTl8MTQ6MzA6MTBdIFdhaXRpbmcgZm9yIGEgY2FsbCBmcm9tIEdvZG90Li4uIE5vdGhpbmcgdG8gYmUgZG9uZS4uLgo=
+[EXCEPTION] [2015-02-19|16:57:51] An Exception occurred!
+''
+[EXCEPTION] [2015-02-19|16:57:51] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1194, in do_open
+    r = h.getresponse()
+  File "C:\Python34\lib\http\client.py", line 1172, in getresponse
+    response.begin()
+  File "C:\Python34\lib\http\client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python34\lib\http\client.py", line 321, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: ''
+[EXCEPTION] [2015-02-19|16:57:51] Moving on... Tired of getting SMSs about this...
+[EXCEPTION] [2015-02-19|16:57:51] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDEy
+[EXCEPTION] [2015-02-19|16:57:51] An Exception occurred!
+''
+[EXCEPTION] [2015-02-19|16:57:51] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1194, in do_open
+    r = h.getresponse()
+  File "C:\Python34\lib\http\client.py", line 1172, in getresponse
+    response.begin()
+  File "C:\Python34\lib\http\client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python34\lib\http\client.py", line 321, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: ''
+[EXCEPTION] [2015-02-19|16:57:51] Moving on... Tired of getting SMSs about this...
+[EXCEPTION] [2015-02-19|16:59:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1JTU0k6IDEy
+[EXCEPTION] [2015-02-19|17:08:53] An Exception occurred!
+''
+[EXCEPTION] [2015-02-19|17:08:53] Traceback (most recent call last):
+  File "C:\Users\PD\Documents\polly\pythonDongle\remote_monitor.py", line 15, in send_request
+    wp = urllib2.urlopen(http_request, timeout=d.web_request_timeout)
+  File "C:\Python34\lib\urllib\request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python34\lib\urllib\request.py", line 455, in open
+    response = self._open(req, data)
+  File "C:\Python34\lib\urllib\request.py", line 473, in _open
+    '_open', req)
+  File "C:\Python34\lib\urllib\request.py", line 433, in _call_chain
+    result = func(*args)
+  File "C:\Python34\lib\urllib\request.py", line 1215, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Python34\lib\urllib\request.py", line 1194, in do_open
+    r = h.getresponse()
+  File "C:\Python34\lib\http\client.py", line 1172, in getresponse
+    response.begin()
+  File "C:\Python34\lib\http\client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python34\lib\http\client.py", line 321, in _read_status
+    raise BadStatusLine(line)
+http.client.BadStatusLine: ''
+[EXCEPTION] [2015-02-19|17:08:53] Moving on... Tired of getting SMSs about this...
+[EXCEPTION] [2015-02-19|17:09:47] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=QUxJVkU7WzIwMTUtMDItMTl8MTc6MDg6NTJdOzE7MTI7Q2VsbGNvbSBHTjtSRUFEWTtDT00xNw==
+[EXCEPTION] [2015-02-19|23:10:47] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|23:14:11] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1N0YXJ0ZWQgdXAsIGZvdW5kIG5vIGRlbGF5ZWQgcmVxdWVzdHMhIEFsbCBjbGVhci4uLg==
+[EXCEPTION] [2015-02-19|23:40:47] Socket timeout! Current timeout: 60.0
+[EXCEPTION] [2015-02-19|23:41:07] >>>> Retrying request: http://128.2.211.183/wa/RemoteMonitor/dongleMontiorUpdate.php?update=TE9HO1N0YXJ0ZWQgdXAsIGZvdW5kIG5vIGRlbGF5ZWQgcmVxdWVzdHMhIEFsbCBjbGVhci4uLg==
