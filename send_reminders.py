@@ -5,7 +5,9 @@ from collections import Counter
 import time
 
 #message = "Ici c'est Polly encore. Nous nous excusons pour le retard hier. Composez 657104235 et raccrocher pour envoyer un message gratuitement a vos amis! Merci!"
-message = 'Bipez à tout moment le 654 308 874 pour écouter des messages de santé important sur Ebola et envoyez-les gratuitement à vos amis'
+#message = 'Bipez à tout moment le 654 308 874 pour écouter des messages de santé important sur Ebola et envoyez-les gratuitement à vos amis'
+#message = "PollySanté: Nous excusons pour le retard. Bipez le 654308874 pour écouter un message sur Ébola en Soussou, en Peul, en d'autres langues et l’envoyer à vos amis!"
+message = "Svp, bipez 654 308 874. A cause des problèmes d'Internet, Polly Santé ne pouvait pas vous rappelé plus tôt. Désolé. Mais ça marche bien maintenant. Merci!"
 
 def send_message_to_reminder_list():
     rlist = [l.strip() for l in open(d.reminder_list).readlines()]

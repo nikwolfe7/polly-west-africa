@@ -1,5 +1,6 @@
+f = "allph_game.txt"
 def main():
-    numbers = [l.strip() for l in open("PollyCallers.csv").readlines()]
+    numbers = [l.strip() for l in open(f).readlines()]
     fixed = set()
     for num in numbers:
         if len(num) >= 9:
@@ -9,7 +10,7 @@ def main():
                 num = "224" + num
             fixed.add(num)
     
-    o = open("PollyCallers.csv","w")
+    o = open(f,"w")
     for num in fixed: o.write(num + "\n")
     o.close()
         
